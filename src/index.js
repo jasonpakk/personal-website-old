@@ -9,5 +9,4 @@ setInterval(() => {
   const string = `You've been on this page for ${sec} seconds.`;
   $('#main').html(string);
   sec += 1;
-  console.log('Hello world');
 }, 1000);
