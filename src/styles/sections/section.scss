@@ -1,0 +1,17 @@
+@import "./contact.scss";
+@import "./education.scss";
+
+section {
+    min-height: 100vh;
+    @include flexCenter(column);
+  
+    h2 {
+      font-size: 5rem;
+      color: $main-color;
+    }
+
+    h3 {
+      font-size: 2.5rem;
+      color: $main-color;
+    }
+}

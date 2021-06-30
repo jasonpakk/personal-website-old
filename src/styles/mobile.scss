@@ -1,0 +1,59 @@
+@media only screen and (max-width:760px) {
+
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
+  #normalList {
+    display: none;
+  }
+
+  #menuIcon {
+    display: block;
+    transition: all 1s;
+  }
+
+  .educationItem {
+    @include flexCenter(column);
+  }
+
+  .schoolText {
+    align-items: center;
+
+    h3 {
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
+}
+
+.hamburgerMenu {
+  position: fixed;
+  width: 100%;
+  top: 12vh;
+}
+  
+#hamburgerList {
+  display: none;
+  background-color: $main-color;
+  border-radius: 0.25rem;
+  margin: 0rem 1rem;
+  padding: 1rem; 
+  list-style: none;
+  box-shadow: 0px 5px 15px $shadow-color;
+
+  li {
+    font-size: 1.2rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}
+  

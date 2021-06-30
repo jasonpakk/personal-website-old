@@ -1,0 +1,21 @@
+$main-color: white;
+$back-color: black;
+$bg-start: #1A2980;
+$bg-end: #26D0CE;
+$shadow-color: rgba(0,0,0,0.3);
+$font-1: 'Francois One', sans-serif;
+$font-2: 'Open Sans', sans-serif;
+
+@mixin flexCenter($direction) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexBetween($direction) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: space-between;
+  align-items: center;
+}

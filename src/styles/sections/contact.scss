@@ -1,0 +1,16 @@
+.contactIcons {
+  a {
+    color: $back-color;
+  }
+
+  i {
+    padding: 1rem;
+
+    &:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    color: $main-color;
+    transition: all 0.5s;
+    }
+  }
+}

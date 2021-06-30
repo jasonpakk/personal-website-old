@@ -1,0 +1,26 @@
+@import "./variables.scss";
+@import "./header.scss";
+@import "./sections/section.scss";
+@import "./mobile.scss";
+
+* {
+  font-family: $font-1;
+  font-size: 15px; 
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+p {
+  font-family: $font-2;
+  font-size: 1.5rem;
+  color: $main-color;
+}
+
+main {
+  background: linear-gradient(to right bottom, $bg-start, $bg-end);
+}
