@@ -1,9 +1,9 @@
 import React from 'react';
-import About from './about';
-import Education from './education';
-import Experience from './experience';
-import Projects from './projects';
-import Contact from './contact';
+import About from './About/About';
+import Education from './Education/Education';
+import Experience from './Experience/Experience';
+import Projects from './Projects/Projects';
+import Contact from './Contact/Contact';
 
 const Body = () => {
   return (
