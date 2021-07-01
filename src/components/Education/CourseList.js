@@ -5,27 +5,29 @@ import Button from 'react-bootstrap/Button';
 
 const CourseList = (props) => {
   return (
-    <Accordion>
-      <Card>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="0">
-            Relevant Coursework
-            <i className="fas fa-caret-down" />
-          </Accordion.Toggle>
-        </Card.Header>
-        <Accordion.Collapse eventKey="0">
-          <Card.Body>
-            <ul>
-              {props.courses.map((course) => {
-                return (
-                  <li key={course}>{course}</li>
-                );
-              })}
-            </ul>
-          </Card.Body>
-        </Accordion.Collapse>
-      </Card>
-    </Accordion>
+    <div className="courseList">
+      <Accordion>
+        <Card>
+          <Card.Header>
+            <Accordion.Toggle as={Button} variant="link" eventKey="0">
+              Relevant Coursework
+              <i className="fas fa-caret-down" />
+            </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="0">
+            <Card.Body>
+              <ul>
+                {props.courses.map((course) => {
+                  return (
+                    <li key={course}>{course}</li>
+                  );
+                })}
+              </ul>
+            </Card.Body>
+          </Accordion.Collapse>
+        </Card>
+      </Accordion>
+    </div>
   );
 };
 

@@ -1,7 +1,6 @@
 .educationItem {
-  width: 100vw;
   @include flexCenter(row);
-  margin: 1rem;
+  margin: 2rem 0rem;
 }
 
 // logo - on left
@@ -91,4 +90,8 @@
       padding-left: 0.5rem;
     }
   }
+}
+
+.courseList {
+  width: 70%;
 }
