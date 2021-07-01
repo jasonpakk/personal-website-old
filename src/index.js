@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/style.scss';
 
-import NavBar from './components/navBar';
+// import NavBar from './components/navBar';
+import Nav from './components/Navbar/Navbar';
 import Body from './components/body';
 
 const App = () => {
   return (
     <div>
-      <NavBar />
+      <Nav />
       <Body />
     </div>
   );
