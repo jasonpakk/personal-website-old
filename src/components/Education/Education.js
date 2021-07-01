@@ -1,5 +1,5 @@
 import React from 'react';
-import Contents from './Contents';
+import EducationItems from './EducationItems';
 import CourseList from './CourseList';
 
 const Education = () => {
@@ -7,7 +7,7 @@ const Education = () => {
     <section data-index="1" id="education">
       <h2>Education</h2>
 
-      {Contents.map((item) => {
+      {EducationItems.map((item) => {
         return (
           <div className="educationItem" key={item.school}>
             <div id={item.logo} className="schoolLogo" />

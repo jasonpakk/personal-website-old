@@ -1,4 +1,4 @@
-const Contents = [
+const EducationItems = [
   {
     school: 'Dartmouth College',
     logo: 'dartLogo',
@@ -30,4 +30,4 @@ const Contents = [
   },
 ];
 
-export default Contents;
+export default EducationItems;
