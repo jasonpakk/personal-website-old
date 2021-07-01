@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import MenuItems from './MenuItems';
-// import Button from './Button';
 
 class NavBar extends Component {
   constructor(props) {
@@ -9,24 +8,30 @@ class NavBar extends Component {
     this.state = { clicked: false };
   }
 
-  handleClick = () => {
+  handleMenuClick = (event) => {
+    const sectionName = event.target.getAttribute('data-page');
+    document.getElementById(sectionName).scrollIntoView({ behavior: 'smooth' });
+  }
+
+  handleIconClick = () => {
     this.setState((prevState) => ({ clicked: !prevState.clicked }));
   }
 
   render() {
     return (
-      <nav className="NavbarItems">
-        <h1 className="navbar-logo">React
-          <i className="fab fa-react" />
+      <nav>
+        <h1 id="navLogo">
+          <div id="faceLogo" />
+          Jason Pak
         </h1>
-        <div role="button" tabIndex={0} className="menu-icon" onClick={this.handleClick}>
+        <div id="hamburgerIcon" role="button" tabIndex={0} onClick={this.handleIconClick}>
           <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
-        <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+        <ul className={this.state.clicked ? 'navMenu active' : 'navMenu'}>
           {MenuItems.map((item) => {
             return (
-              <li>
-                <a className={item.cName} href={item.url}>{item.title}</a>
+              <li className="navLinks" data-page={item.title.toLowerCase()} onClick={this.handleMenuClick}>
+                {item.title}
               </li>
             );
           })}

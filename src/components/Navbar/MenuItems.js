@@ -1,23 +1,18 @@
 const MenuItems = [
   {
-    title: 'Home',
-    url: '#',
-    cName: 'nav-links',
+    title: 'About',
   },
   {
-    title: 'Services',
-    url: '#',
-    cName: 'nav-links',
+    title: 'Education',
   },
   {
-    title: 'Products',
-    url: '#',
-    cName: 'nav-links',
+    title: 'Experience',
   },
   {
-    title: 'Contact Us',
-    url: '#',
-    cName: 'nav-links',
+    title: 'Projects',
+  },
+  {
+    title: 'Contact',
   },
 ];
 

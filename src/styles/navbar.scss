@@ -1,0 +1,59 @@
+nav {
+  position: sticky;
+  @include flexBetween(row);
+  z-index: 1;
+  top: 0px;
+  background: $main-color;
+  box-shadow: 0px 3px 10px $shadow-color;
+}
+
+#navLogo {
+  @include flexCenter(row);
+  color: black;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+#faceLogo {
+  background-image: url('../img/man-icon.png');
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0.7rem;
+  transition: background-image 0.4s;
+
+  &:hover {
+    background-image: url('../img/home.png');
+    transition: background-image 0.4s;
+  }
+}
+
+.navMenu {
+  list-style: none;
+  @include flexBetween(row);
+  margin: 0;
+  margin-right: 1.7rem;
+}
+
+.navLinks {
+  color: black;
+  text-decoration: none;
+  padding: 0rem 1rem;
+  font-size: 1.3rem;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: all 0.2s ease-out;
+  }
+}
+
+#hamburgerIcon {
+  display: none;
+}
+
+.fa-times, .fa-bars {
+  color: black;
+  font-size: 2rem;
+}

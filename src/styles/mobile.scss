@@ -1,10 +1,46 @@
 @media only screen and (max-width:760px) {
 
-  html, body {
-    overflow-x: hidden;
-  }
   body {
+    overflow-x: hidden;
     position: relative
+  }
+  
+  .navMenu {
+    @include flexCenter(column);
+    width: 90%;
+    position: absolute;
+    margin: auto;
+    right: -100%;
+    top: 13vh;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .navMenu.active {
+    background-color: $main-color;
+    border-radius: 0.25rem;
+    left: 0%;
+    right: 0%;
+    list-style: none;
+    box-shadow: 0px 5px 15px $shadow-color;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .navLinks {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  #hamburgerIcon {
+    display: block;
+    margin-right: 1.4rem;
+    cursor: pointer;
+  
+    &:hover {
+      transition: transform 0.5s;
+      transform: translateY(-5px);
+    }
   }
 
   #normalList {
@@ -26,33 +62,6 @@
     h3 {
       font-size: 2rem;
       text-align: center;
-    }
-  }
-}
-
-.hamburgerMenu {
-  position: fixed;
-  width: 100%;
-  top: 12vh;
-}
-  
-#hamburgerList {
-  display: none;
-  background-color: $main-color;
-  border-radius: 0.25rem;
-  margin: 0rem 1rem;
-  padding: 1rem; 
-  list-style: none;
-  box-shadow: 0px 5px 15px $shadow-color;
-
-  li {
-    font-size: 1.2rem;
-    padding: 0.25rem 0.5rem;
-    border-radius: 0.5rem;
-
-    &:hover {
-      cursor: pointer;
-      text-decoration: underline;
     }
   }
 }
