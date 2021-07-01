@@ -1,5 +1,6 @@
 nav {
-  position: sticky;
+  position: fixed;
+  width: 100%;
   @include flexBetween(row);
   z-index: 1;
   top: 0px;

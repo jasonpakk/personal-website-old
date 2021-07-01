@@ -8,11 +8,11 @@
     overflow-x: hidden;
     position: relative
   }
-  
+
   .navMenu {
     @include flexCenter(column);
     width: 90%;
-    position: absolute;
+    position: fixed;
     margin: auto;
     right: -100%;
     top: 13vh;
