@@ -1,4 +1,7 @@
 # jasonpak.me
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/968e5a21-c034-45f0-9f9a-4532b39b6c41/deploy-status)](https://app.netlify.com/sites/jasonpak/deploys)
+
 A personal website made using HTML + CSS + Javascript.
 
 # References
