@@ -9,7 +9,12 @@ const Contact = () => {
       <div className="contactIcons">
         {ContactItems.map((item) => {
           return (
-            <a href={item.link} target="_blank" rel="noopener noreferrer" aria-label={item.name}>
+            <a href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={item.name}
+              key={item.name}
+            >
               <i className={item.icon} />
             </a>
           );

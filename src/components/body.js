@@ -1,18 +1,30 @@
 import React from 'react';
+
 import About from './About/About';
 import Education from './Education/Education';
 import Experience from './Experience/Experience';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 
-const Body = () => {
+const Body = (props) => {
   return (
     <main>
-      <About />
-      <Education />
-      <Experience />
-      <Projects />
-      <Contact />
+      <div ref={props.aboRef}>
+        <About />
+      </div>
+      <div ref={props.eduRef}>
+        <Education />
+      </div>
+      <div ref={props.expRef}>
+        <Experience />
+      </div>
+      <div ref={props.projRef}>
+        <Projects />
+      </div>
+      <div ref={props.contRef}>
+        <Contact />
+      </div>
+
     </main>
   );
 };
