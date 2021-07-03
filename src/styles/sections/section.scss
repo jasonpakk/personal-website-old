@@ -1,9 +1,12 @@
+@import "./about.scss";
 @import "./contact.scss";
 @import "./education.scss";
 
 section {
     min-height: 100vh;
+    padding-top: 120px;
     @include flexCenter(column);
+    justify-content: flex-start;
   
     h2 {
       font-size: 5rem;
@@ -15,3 +18,4 @@ section {
       color: $main-color;
     }
 }
+

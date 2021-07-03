@@ -18,9 +18,7 @@ class NavBar extends Component {
 
   handleMenuClick = (event) => {
     const sectionName = event.target.getAttribute('data-page');
-    const section = document.getElementById(sectionName);
-    window.scroll({ top: (section.offsetTop - 90), behavior: 'smooth' });
-    // document.getElementById(sectionName).scrollIntoView({ behavior: 'smooth' });
+    document.getElementById(sectionName).scrollIntoView({ behavior: 'smooth' });
     this.setState(() => ({ clicked: false }));
   }
 
