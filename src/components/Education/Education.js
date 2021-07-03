@@ -13,7 +13,7 @@ const Education = () => {
             <div id={item.logo} className="schoolLogo" />
 
             <div className="schoolText">
-              <h3>{item.school}</h3>
+              <p className="schoolName">{item.school}</p>
 
               <div className="schoolIcons">
                 <i className="fas fa-map-marker-alt"><p>{item.location}</p></i>

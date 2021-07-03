@@ -14,7 +14,6 @@
   background-color: $main-color;
   box-shadow: 0px 3px 10px $shadow-color;
   border-radius: 50%;
-  @include flexCenter(column);
   transition: transform 0.5s;
   
   &:hover {
@@ -33,16 +32,11 @@
 
 // body of text - on right
 .schoolText {
-  width: 500px;
-  margin-left: 2rem;
+  width: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: flex-start;
-
-  h3 {
-    text-align: left;
-  }
+  padding-left: 3rem;
 
   button {
     font-size: 1.2rem;
@@ -60,6 +54,13 @@
   }
 }
 
+.schoolName {
+  font-family: $font-1;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  text-align: left;
+}
+
 .degreeText {
   margin-top: 0.5rem;
 }
@@ -72,7 +73,6 @@
 .schoolIcons {
   width: 80%;
   display: flex;
-  justify-content: space-between;
   align-items: center; 
   margin: 0.5rem 0rem;
 
@@ -80,7 +80,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 2rem;
+    margin-right: 3rem;
     
     p {
       margin: 0;
@@ -94,5 +94,5 @@
 }
 
 .courseList {
-  width: 70%;
+  width: 60%;  
 }

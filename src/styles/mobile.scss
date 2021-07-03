@@ -6,9 +6,10 @@
 
   body {
     overflow-x: hidden;
-    position: relative
+    position: relative;
   }
 
+  // NAV BAR
   .navMenu {
     @include flexCenter(column);
     width: 90%;
@@ -57,16 +58,42 @@
     transition: all 1s;
   }
 
+  section h2 {
+    font-size: 4rem;
+  }
+
+  // EDUCATION SECTION
   .educationItem, .schoolIcons {
     @include flexCenter(column);
   }
+
+  .schoolIcons {
+    i {
+      padding: 0.2rem;
+      margin: 0rem;
+    }
+  }
   
   .schoolText {
+    width: 80vw;
+    padding: 0rem;
     align-items: center;
+  }
 
-    h3 {
-      font-size: 2rem;
-      text-align: center;
+  .schoolName {
+    text-align: center;
+  }
+
+  .courseList {
+    width: auto;  
+  }
+
+  // CONTACT SECTION
+  .contactIcons {
+    @include flexCenter(row);
+    flex-wrap: wrap;
+    a {
+      width: 34%;
     }
   }
 }
