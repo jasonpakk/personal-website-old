@@ -1,5 +1,8 @@
 const MenuItems = [
   {
+    title: 'Home',
+  },
+  {
     title: 'About',
   },
   {

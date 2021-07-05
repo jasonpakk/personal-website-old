@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Home from './Home/Home';
 import About from './About/About';
 import Education from './Education/Education';
 import Experience from './Experience/Experience';
@@ -9,6 +10,9 @@ import Contact from './Contact/Contact';
 const Body = (props) => {
   return (
     <main>
+      <div ref={props.homeRef}>
+        <Home />
+      </div>
       <div ref={props.aboRef}>
         <About />
       </div>

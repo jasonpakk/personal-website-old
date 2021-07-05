@@ -4,7 +4,7 @@ import CourseList from './CourseList';
 
 const Education = () => {
   return (
-    <section data-index="1" id="education">
+    <section data-index="2" id="education">
       <h2>Education</h2>
       {EducationItems.map((item) => {
         return (

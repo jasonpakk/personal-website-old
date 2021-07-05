@@ -3,6 +3,7 @@ import MenuItems from './MenuItems';
 
 const gradients = [
   'linear-gradient(to right bottom, #1A2980, #268aad)',
+  'linear-gradient(to right bottom, #1A2980, #268aad)',
   'linear-gradient(to right bottom, #1d3981, #279db6)',
   'linear-gradient(to right bottom, #204b8e, #27adbe)',
   'linear-gradient(to right bottom, #225d96, #27bdc5)',

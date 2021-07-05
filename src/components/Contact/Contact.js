@@ -3,7 +3,7 @@ import ContactItems from './ContactItems';
 
 const Contact = () => {
   return (
-    <section data-index="4" id="contact">
+    <section data-index="5" id="contact">
       <h2>Contact</h2>
 
       <div className="contactIcons">
