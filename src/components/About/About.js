@@ -7,7 +7,7 @@ const About = () => {
       <ParticleBackground />
       <div id="aboutText">
         <h2>Hi, I&apos;m Jason.</h2>
-        <p>I am a student at Dartmouth College.</p>
+        <p>I am a Computer Science Major at Dartmouth College.</p>
       </div>
 
     </section>

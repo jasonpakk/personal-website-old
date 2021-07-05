@@ -6,7 +6,6 @@ const Education = () => {
   return (
     <section data-index="1" id="education">
       <h2>Education</h2>
-
       {EducationItems.map((item) => {
         return (
           <div className="educationItem" key={item.school}>
