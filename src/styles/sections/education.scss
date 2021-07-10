@@ -1,3 +1,7 @@
+#education {
+  min-height: 150vh;
+}
+
 .educationItem {
   @include flexCenter(row);
   margin: 2rem 0rem;

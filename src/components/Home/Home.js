@@ -7,7 +7,7 @@ const Home = () => {
       <ParticleBackground />
       <div id="homeText">
         <h2>Jason Pak</h2>
-        <p>I am studying Computer Science @ Dartmouth College</p>
+        <p>Computer Science @ Dartmouth College</p>
       </div>
 
     </section>

@@ -1,0 +1,56 @@
+#about {
+  min-height: 170vh;
+}
+
+#aboutBody {
+  @include flexBetween(row);
+}
+
+#portrait {
+  background-image: url('/src/img/profile.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 400px;
+  height: 350px;
+  min-width: 350px;
+  margin: 1rem 3rem;
+  background-color: $main-color;
+  box-shadow: 0px 3px 10px $shadow-color;
+  border-radius: 50%;
+  transition: transform 0.5s;
+  
+  &:hover {
+    transform: translateY(-5px);
+    transition: transform 0.5s;
+  }
+}
+
+#aboutText {
+  max-width: 600px;
+  margin-right: 3rem;
+}
+
+#languages {
+  @include flexCenter(column);
+
+  h3 {
+    padding-top: 1rem;
+  }
+
+  #languageList {
+    width: 70%;
+    @include flexCenter(row);
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+  }
+  
+  .languageIcon {
+    margin: 1rem;
+    
+    i {
+      color: white;
+      font-size: 7rem;
+    }
+  }
+}
+
