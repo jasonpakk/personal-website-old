@@ -38,7 +38,7 @@ class NavBar extends Component {
     return (
       <nav>
         <h1 id="navLogo">
-          <div id="faceLogo" />
+          <a href="/" aria-label="home"><div id="faceLogo" /></a>
           Jason Pak
         </h1>
         <div id="hamburgerIcon" role="button" tabIndex={0} onClick={this.handleIconClick}>
