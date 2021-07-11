@@ -36,8 +36,8 @@
   b {
     font-family: $font-2;
     font-size: 1.5rem;
-    font-weight: 5000;
-    color: gold;
+    font-weight: 1000;
+    color: aquamarine;
   }
 }
 
@@ -45,7 +45,7 @@
   @include flexCenter(column);
 
   h3 {
-    padding-top: 1rem;
+    padding: 1rem 0rem;
   }
 
   #languageList {
@@ -56,11 +56,21 @@
   }
   
   .languageIcon {
-    margin: 1rem;
+    width: 130px;
+    margin: 0.5rem 1rem;
     
     i {
       color: white;
       font-size: 7rem;
+    }
+
+    &:hover {
+      transform: translateY(-5px);
+      transition: transform 0.5s;
+
+      i, p {
+        color:aquamarine;
+      }
     }
   }
 }

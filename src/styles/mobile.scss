@@ -69,6 +69,25 @@
 
   #aboutText {
     margin: 0rem 2rem;
+
+    p {
+      padding: 0rem 1rem;
+    }
+  }
+
+  #languages {
+
+    h3 {
+      padding: 1rem 1rem;
+    }
+
+    .languageIcon {
+      width: 100px;
+
+      i {
+        font-size: 5rem;
+      }
+    }
   }
 
   // EDUCATION SECTION
@@ -94,12 +113,6 @@
     text-align: center;
     margin-top: 1rem;
   }
-
-  .courseList {
-    width: auto;  
-  }
-
-  // EXPERIENCE SECTION
 
   // CONTACT SECTION
   .contactIcons {
