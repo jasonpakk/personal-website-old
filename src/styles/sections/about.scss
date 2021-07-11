@@ -28,6 +28,17 @@
 #aboutText {
   max-width: 600px;
   margin-right: 3rem;
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  b {
+    font-family: $font-2;
+    font-size: 1.5rem;
+    font-weight: 5000;
+    color: gold;
+  }
 }
 
 #languages {

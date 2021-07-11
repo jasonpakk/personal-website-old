@@ -8,8 +8,13 @@ const About = () => {
       <div id="aboutBody">
         <div id="portrait" />
         <div id="aboutText">
-          <h3>Hi! I&apos;m Jason.</h3>
-          <p>I am a Computer Science Major at Dartmouth, interested in Software Engineeringn</p>
+          <h3>Hey there!</h3>
+          <p>
+            My name is <b>Jason</b> and I&apos;m a developer from Northern Virginia.
+            Currently, I am a <b>Sophomore (&apos;24) at Dartmouth</b> where I am majoring in Computer Science.
+            As a developer, I enjoy applying my skills in <b>full stack development</b> to create
+            software in the form of websites or mobile apps.
+          </p>
         </div>
       </div>
       <div id="languages">
