@@ -21,7 +21,7 @@ const Education = () => {
 
               <p className="degreeText">{item.degree}</p>
 
-              <CourseList courses={item.courses} />
+              <CourseList title="Relevant Coursework" courses={item.courses} />
             </div>
           </div>
         );

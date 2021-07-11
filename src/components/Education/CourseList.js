@@ -10,7 +10,7 @@ const CourseList = (props) => {
         <Card>
           <Card.Header>
             <Accordion.Toggle as={Button} variant="link" eventKey="0">
-              Relevant Coursework
+              {props.title}
               <i className="fas fa-caret-down" />
             </Accordion.Toggle>
           </Card.Header>

@@ -72,30 +72,34 @@
   }
 
   // EDUCATION SECTION
-  .educationItem, .schoolIcons {
+  .educationItem, .schoolIcons, 
+  .experienceItem, .experienceIcons {
     @include flexCenter(column);
   }
 
-  .schoolIcons {
+  .schoolIcons, .experienceIcons {
     i {
       padding: 0.2rem;
       margin: 0rem;
     }
   }
   
-  .schoolText {
+  .schoolText, .experienceText {
     width: 80vw;
     padding: 0rem;
     align-items: center;
   }
 
-  .schoolName {
+  .schoolName, .experienceOrg {
     text-align: center;
+    margin-top: 1rem;
   }
 
   .courseList {
     width: auto;  
   }
+
+  // EXPERIENCE SECTION
 
   // CONTACT SECTION
   .contactIcons {

@@ -1,23 +1,17 @@
-#education {
-  min-height: 150vh;
-}
-
-.educationItem {
+.experienceItem {
   @include flexCenter(row);
   margin: 2rem 0rem;
 }
 
-// logo - on left
-.schoolLogo {
+.experienceLogo {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 120px;
-  height: 180px;
-  width: 180px;
+  height: 200px;
+  width: 200px;
   margin: 1rem;
   background-color: $main-color;
   box-shadow: 0px 3px 10px $shadow-color;
-  border-radius: 50%;
+  border-radius: 10%;
   transition: transform 0.5s;
   
   &:hover {
@@ -26,16 +20,19 @@
   }
 }
 
-#dartLogo {
-  background-image: url('/src/img/dartmouth.png');
+#vitalizeLogo {
+  background-color: #b6d8fb;
+  background-image: url('/src/img/vitalize-logo.png');
+  background-size: 190px;
 }
 
-#tjLogo {
-  background-image: url('/src/img/tj.png');
+#taLogo {
+  background-color: #016936;
+  background-image: url('/src/img/taLogo.jpeg');
+  background-size: 290px;
 }
 
-// body of text - on right
-.schoolText {
+.experienceText {
   width: 600px;
   display: flex;
   flex-direction: column;
@@ -47,38 +44,28 @@
   }
 
   ul {
-    list-style: none;
     @include flexBetween(column);
     margin: 0;
   
     li {
+      text-align: left;
       font-size: 1rem;
       margin: 0.5rem;
+      margin-left: 1.5rem;
     }
   }
 }
 
-.schoolName {
+.experienceOrg {
   font-family: $font-1;
   font-size: 2.5rem;
   line-height: 1.2;
-  text-align: left;
+  margin: 0;
 }
 
-.degreeText {
-  margin-top: 0.5rem;
-}
-
-.fa-caret-down {
-  padding-left: 0.5rem;
-}
-
-// location + time
-.schoolIcons {
-  width: 80%;
+.experienceIcons {
   display: flex;
-  align-items: center; 
-  margin: 0.5rem 0rem;
+  margin-bottom: 1rem;
 
   i {
     display: flex;
@@ -95,8 +82,4 @@
       padding-left: 0.5rem;
     }
   }
-}
-
-.courseList {
-  width: 70%;  
 }
