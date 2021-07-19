@@ -8,7 +8,7 @@ const Experience = () => {
       <h2>Experience</h2>
       {ExperienceItems.map((item) => {
         return (
-          <div className="experienceItem" key={item.school}>
+          <div className="experienceItem" key={item.logo}>
             <div id={item.logo} className="experienceLogo" />
             <div className="experienceText">
               <p className="experienceOrg">{item.org}</p>
