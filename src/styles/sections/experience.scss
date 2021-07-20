@@ -1,3 +1,7 @@
+#experience {
+  min-height: 150vh;
+}
+
 .experienceItem {
   @include flexCenter(row);
   margin: 2rem 0rem;

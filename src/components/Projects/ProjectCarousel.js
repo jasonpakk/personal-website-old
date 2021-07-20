@@ -6,12 +6,11 @@ const options = {
   infiniteLoop: true,
   showArrows: false,
   showStatus: false,
+  showIndicators: false,
   showThumbs: false,
   swipeable: 'false',
-  width: '500px',
+  width: '60vw',
 };
-
-const buttonStyle = { fontSize: 20, padding: '5px 20px', margin: '5px 0px' };
 
 class ProjectCarousel extends Component {
   constructor(props) {
@@ -46,12 +45,10 @@ class ProjectCarousel extends Component {
 
   render() {
     return (
-      <div>
-        <button type="button" onClick={this.prev} style={buttonStyle}>
-          Prev
-        </button>
-        <button type="button" onClick={this.next} style={buttonStyle}>
-          Next
+      <div className="projectCarousel">
+
+        <button type="button" onClick={this.prev}>
+          <i className="fas fa-chevron-left" />
         </button>
 
         <Carousel {...options}
@@ -71,6 +68,10 @@ class ProjectCarousel extends Component {
             />
           </div>
         </Carousel>
+
+        <button type="button" onClick={this.next}>
+          <i className="fas fa-chevron-right" />
+        </button>
       </div>
 
     );

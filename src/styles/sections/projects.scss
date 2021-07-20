@@ -1,5 +1,29 @@
+#projects {
+  min-height: 120vh;
+}
+
+.projectCarousel {
+  @include flexBetween(row);
+
+  button {
+    font-size: 20; 
+    padding: 10px; 
+    margin: 0px 20px;
+    border-radius: 0.5rem;
+    transition: all 0.5s;
+
+    &:hover {
+      transition: all 0.5s;
+      transform: translateY(-5px);
+    }
+  }
+}
+
 .carouselItem {
+  transition: all 0.5s;
+  
   &:hover {
+    transition: all 0.5s;
     transform: translateY(-5px);
   }
 }
