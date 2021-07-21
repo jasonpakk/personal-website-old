@@ -4,13 +4,13 @@ const ParticleParams = {
       enable: true,
     },
     number: {
-      value: 50,
+      value: 30,
     },
     size: {
-      value: 1,
+      value: 3,
     },
     move: {
-      speed: 10,
+      speed: 5,
     },
   },
   interactivity: {

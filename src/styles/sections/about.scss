@@ -2,6 +2,15 @@
   background: linear-gradient(to bottom, #343a40, #001d3d);
   padding-top: 10rem;
   min-height: 170vh;
+
+  h3 {
+    width: fit-content;
+    background: $white;
+    color: $black;
+    padding: 1rem;
+    box-shadow: 0px 3px 10px $shadow-color;
+    border-radius: 1rem;
+  }
 }
 
 #aboutBody {
@@ -28,6 +37,8 @@
 }
 
 #aboutText {
+  margin-top: 3rem;
+  @include flexCenter(column);
   max-width: 600px;
   margin-right: 3rem;
 
@@ -45,10 +56,7 @@
 
 #languages {
   @include flexCenter(column);
-
-  h3 {
-    padding: 1rem 0rem;
-  }
+  margin-top: 3rem;
 
   #languageList {
     width: 70%;
