@@ -4,8 +4,7 @@ nav {
   @include flexBetween(row);
   z-index: 1;
   top: 0px;
-  background: $main-color;
-  box-shadow: 0px 3px 10px $shadow-color;
+  transition: background-color 1.5s;
 }
 
 #navLogo {
@@ -13,6 +12,7 @@ nav {
   color: black;
   margin-left: 0.5rem;
   cursor: pointer;
+  transition: color 1.5s;
 }
 
 #faceLogo {
@@ -44,6 +44,7 @@ nav {
   margin: 0rem 0.5rem;
   font-size: 1.3rem;
   border-radius: 0.5rem;
+  transition: color 1.5s;
 
   &:hover {
     cursor: pointer;

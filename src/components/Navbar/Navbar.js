@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import MenuItems from './MenuItems';
 
 const gradients = [
-  'linear-gradient(to right bottom, #1A2980, #268aad)',
-  'linear-gradient(to right bottom, #1A2980, #268aad)',
-  'linear-gradient(to right bottom, #1d3981, #279db6)',
-  'linear-gradient(to right bottom, #204b8e, #27adbe)',
-  'linear-gradient(to right bottom, #225d96, #27bdc5)',
-  'linear-gradient(to right bottom, #266fa1, #25cecc)',
+  '#03071e',
+  'linear-gradient(to bottom, #343a40, #001d3d)',
+  'linear-gradient(to bottom, #001d3d, #014f86)',
+  'linear-gradient(to bottom, #014f86, #5c677d)',
+  'linear-gradient(to bottom, #5c677d, #33415c)',
+  'linear-gradient(to bottom, #33415c, #001233)',
 ];
 
 class NavBar extends Component {
@@ -27,28 +27,40 @@ class NavBar extends Component {
     this.setState((prevState) => ({ clicked: !prevState.clicked }));
   }
 
-  handleStyling = (index) => {
+  handleBackgroundStyle = (index) => {
     return {
       color: 'white',
       background: gradients[index],
     };
   }
 
+  handleTextStyle = () => {
+    if (this.props.active === 'Home' && !this.state.clicked) {
+      return {
+        color: 'white',
+      };
+    } else {
+      return {
+        color: 'black',
+      };
+    }
+  }
+
   render() {
     return (
-      <nav>
-        <h1 id="navLogo">
+      <nav style={this.props.active === 'Home' ? { background: 'transparent' } : { background: 'white' }}>
+        <h1 id="navLogo" style={this.props.active === 'Home' ? { color: 'white' } : { color: 'black' }}>
           <a href="/" aria-label="home"><div id="faceLogo" /></a>
           Jason Pak
         </h1>
         <div id="hamburgerIcon" role="button" tabIndex={0} onClick={this.handleIconClick}>
-          <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'} />
+          <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'} style={this.props.active === 'Home' ? { color: 'white' } : { color: 'black' }} />
         </div>
         <ul className={this.state.clicked ? 'navMenu active' : 'navMenu'}>
           {MenuItems.map((item, index) => {
             return (
               <li className="navLinks"
-                style={this.props.active === item.title ? this.handleStyling(index) : null}
+                style={this.props.active === item.title ? this.handleBackgroundStyle(index) : this.handleTextStyle()}
                 key={item.title}
                 data-page={item.title.toLowerCase()}
                 onClick={this.handleMenuClick}

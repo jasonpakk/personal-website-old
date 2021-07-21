@@ -1,3 +1,7 @@
+#contact {
+  background: linear-gradient(to bottom, #33415c, #001233);
+}
+
 .contactIcons {
   a {
     color: $back-color;
@@ -5,11 +9,12 @@
 
   i {
     padding: 1rem;
+    color: white;
 
     &:hover {
     cursor: pointer;
     transform: translateY(-5px);
-    color: $main-color;
+    color: blue;
     transition: all 0.5s;
     }
   }
