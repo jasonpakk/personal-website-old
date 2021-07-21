@@ -14,8 +14,31 @@
     &:hover {
     cursor: pointer;
     transform: translateY(-5px);
-    color: blue;
     transition: all 0.5s;
     }
+  }
+
+  .emailIcon {
+    &:hover {
+      color: #78C257;
+      }
+  }
+
+  .githubIcon {
+    &:hover {
+      color: #FFA500;
+      }
+  }
+
+  .facebookIcon {
+    &:hover {
+      color: #006AFF;
+      }
+  }
+
+  .instagramIcon {
+    &:hover {
+      color: #E1306C;
+      }
   }
 }

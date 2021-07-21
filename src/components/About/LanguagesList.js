@@ -6,7 +6,7 @@ const LanguagesList = () => {
     <div id="languageList">
       {AboutItems.map((item) => {
         return (
-          <div className="languageIcon" key={item.name}>
+          <div className="languageIcon" key={item.key}>
             <i className={item.icon} />
             <p>{item.name}</p>
           </div>

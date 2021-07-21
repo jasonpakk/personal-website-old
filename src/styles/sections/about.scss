@@ -39,7 +39,7 @@
     font-family: $font-2;
     font-size: 1.5rem;
     font-weight: 1000;
-    color: aquamarine;
+    color: #78C257;
   }
 }
 
@@ -64,15 +64,59 @@
     i {
       color: $white;
       font-size: 7rem;
-    }
 
-    &:hover {
-      transform: translateY(-5px);
-      transition: transform 0.5s;
-
-      i, p {
-        color:aquamarine;
+      &:hover{
+        transform: translateY(-5px);
+        transition: transform 0.5s;
       }
+    }
+  }
+
+  .javaIcon {
+    &:hover, &:hover + p {
+      color: #e37207;
+    }
+  }
+
+  .jsIcon {
+    &:hover, &:hover + p {
+      color: #f0db4f;
+    }
+  }
+
+  .reactIcon {
+    &:hover, &:hover + p {
+      color: #61DBFB;
+    }
+  }
+
+  .rnIcon {
+    &:hover, &:hover + p {
+      color: #61DBFB;
+    }
+  }
+
+  .nodeIcon {
+    &:hover, &:hover + p {
+      color: #68A063;
+    }
+  }
+
+  .htmlIcon {
+    &:hover, &:hover + p {
+      color: #e34c26;
+    }
+  }
+
+  .cIcon {
+    &:hover, &:hover + p {
+      color: #394aab;
+    }
+  }
+
+  .pythonIcon {
+    &:hover, &:hover + p {
+      color: #FFD43B;
     }
   }
 }
