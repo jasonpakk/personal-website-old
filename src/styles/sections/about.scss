@@ -12,11 +12,11 @@
   background-image: url('/src/img/profile.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 400px;
-  height: 350px;
-  min-width: 350px;
+  background-size: 300px;
+  height: 300px;
+  min-width: 300px;
   margin: 1rem 3rem;
-  background-color: $main-color;
+  background-color: $white;
   box-shadow: 0px 3px 10px $shadow-color;
   border-radius: 50%;
   transition: transform 0.5s;
@@ -62,7 +62,7 @@
     margin: 0.5rem 1rem;
     
     i {
-      color: white;
+      color: $white;
       font-size: 7rem;
     }
 

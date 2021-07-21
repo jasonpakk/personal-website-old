@@ -4,12 +4,12 @@
 
 .contactIcons {
   a {
-    color: $back-color;
+    color: $black;
   }
 
   i {
     padding: 1rem;
-    color: white;
+    color: $white;
 
     &:hover {
     cursor: pointer;

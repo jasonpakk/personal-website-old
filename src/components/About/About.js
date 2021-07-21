@@ -8,7 +8,7 @@ const About = () => {
       <div id="aboutBody">
         <div id="portrait" />
         <div id="aboutText">
-          <h3>Hey there!</h3>
+          <h3>Hello!</h3>
           <p>
             My name is <b>Jason</b> and I&apos;m a developer from Northern Virginia.
             Currently, I am a <b>Sophomore (&apos;24) at Dartmouth</b> where I am majoring in Computer Science.
