@@ -13,13 +13,12 @@ const Education = () => {
 
             <div className="schoolText">
               <p className="schoolName">{item.school}</p>
+              <p className="degreeText">{item.degree}</p>
 
               <div className="schoolIcons">
                 <i className="fas fa-map-marker-alt"><p>{item.location}</p></i>
                 <i className="far fa-calendar-alt"><p>{item.time}</p></i>
               </div>
-
-              <p className="degreeText">{item.degree}</p>
 
               <CourseList title="Relevant Coursework" courses={item.courses} />
             </div>

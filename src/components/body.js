@@ -10,9 +10,7 @@ import Contact from './Contact/Contact';
 const Body = (props) => {
   return (
     <main>
-      <div ref={props.homeRef}>
-        <Home />
-      </div>
+      <Home />
       <div ref={props.aboRef}>
         <About />
       </div>
