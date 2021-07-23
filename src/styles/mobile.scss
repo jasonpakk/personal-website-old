@@ -11,7 +11,7 @@
 
   // NAV BAR
   .navMenu {
-    @include flexCenter(column);
+    @include flex(column, center);
     width: 90%;
     position: fixed;
     margin: auto;
@@ -64,7 +64,7 @@
 
   // ABOUT SECTION
   #aboutBody {
-    @include flexBetween(column);
+    @include flex(column, space-between);
   }
 
   #aboutText {
@@ -93,7 +93,7 @@
   // EDUCATION SECTION
   .educationItem, .schoolIcons, 
   .experienceItem, .experienceIcons {
-    @include flexCenter(column);
+    @include flex(column, center);
   }
 
   .schoolIcons, .experienceIcons {
@@ -115,7 +115,7 @@
 
   // CONTACT SECTION
   .contactIcons {
-    @include flexCenter(row);
+    @include flex(row, center);
     flex-wrap: wrap;
     a {
       width: 34%;

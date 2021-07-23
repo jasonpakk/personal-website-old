@@ -14,7 +14,7 @@
 }
 
 #aboutBody {
-  @include flexBetween(row);
+  @include flex(row, space-between);
 }
 
 #portrait {
@@ -37,8 +37,8 @@
 }
 
 #aboutText {
+  @include flex(column, center);
   margin-top: 3rem;
-  @include flexCenter(column);
   max-width: 600px;
   margin-right: 3rem;
 
@@ -55,13 +55,12 @@
 }
 
 #languages {
-  @include flexCenter(column);
+  @include flex(column, center);
   margin-top: 3rem;
 
   #languageList {
+    @include flex(row, space-evenly);
     width: 70%;
-    @include flexCenter(row);
-    justify-content: space-evenly;
     flex-wrap: wrap; 
   }
   

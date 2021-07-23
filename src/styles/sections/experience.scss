@@ -4,7 +4,7 @@
 }
 
 .experienceItem {
-  @include flexCenter(row);
+  @include flex(row, center);
   margin: 2rem 0rem;
 }
 
@@ -38,10 +38,9 @@
 }
 
 .experienceText {
-  width: 600px;
-  display: flex;
-  flex-direction: column;
+  @include flex(column, flex-start);
   align-items: flex-start;
+  width: 600px;
   padding-left: 3rem;
 
   button {
@@ -49,7 +48,7 @@
   }
 
   ul {
-    @include flexBetween(column);
+    @include flex(column, space-between);
     margin: 0;
   
     li {
@@ -69,14 +68,11 @@
 }
 
 .experienceIcons {
-  display: flex;
-  align-items: center; 
+  @include flex(row, center);
   margin-bottom: 1rem;
 
   i {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    @include flex(row, center);
     margin-right: 2rem;
     color: $black;
     padding: 0.5rem 1rem;

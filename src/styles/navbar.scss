@@ -1,14 +1,14 @@
 nav {
+  @include flex(row, space-between);
   position: fixed;
   width: 100%;
-  @include flexBetween(row);
   z-index: 1;
   top: 0px;
   transition: background-color 1.5s;
 }
 
 #navLogo {
-  @include flexCenter(row);
+  @include flex(row, center);
   margin-left: 0.5rem;
   cursor: pointer;
   transition: color 1.5s;
@@ -30,8 +30,8 @@ nav {
 }
 
 .navMenu {
+  @include flex(row, space-between);
   list-style: none;
-  @include flexBetween(row);
   margin: 0;
   margin-right: 1.7rem;
 }

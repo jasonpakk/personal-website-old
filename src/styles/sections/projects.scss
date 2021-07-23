@@ -4,7 +4,7 @@
 }
 
 .projectCarousel {
-  @include flexBetween(row);
+  @include flex(row, space-between);
 
   button {
     font-size: 20; 
@@ -21,7 +21,7 @@
 }
 
 .carouselItem {
-  @include flexBetween(row);
+  @include flex(row, space-between);
   width: 70vw;
   height: 250px;
   margin: 5rem 0rem;
@@ -37,7 +37,7 @@
 }
 
 .carouselText {
-  @include flexBetween(column);
+  @include flex(column, space-between);
   padding: 1rem;
 }
 
