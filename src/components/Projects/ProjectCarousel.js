@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
+import ProjectObject from './ProjectObject';
 
 const options = {
   infiniteLoop: true,
@@ -55,18 +56,7 @@ class ProjectCarousel extends Component {
           selectedItem={this.state.currentSlide}
           onChange={this.updateCurrentSlide}
         >
-          <div className="carouselItem" key="slide1">
-            <img
-              alt="hi1"
-              src="https://i0.wp.com/readysetpuppy.com/wp-content/uploads/2019/09/Corgi-at-home.jpg?fit=998%2C463&ssl=1&resize=1280%2C720"
-            />
-          </div>
-          <div className="carouselItem" key="slide2">
-            <img
-              alt="hi2"
-              src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/14112506/Pembroke-Welsh-Corgi-standing-outdoors-in-the-fall.jpg"
-            />
-          </div>
+          <ProjectObject name="corgi" />
         </Carousel>
 
         <button type="button" onClick={this.next}>

@@ -21,10 +21,33 @@
 }
 
 .carouselItem {
-  transition: all 0.5s;
-  
+  @include flexBetween(row);
+  width: 70vw;
+  height: 250px;
+  margin: 5rem 0rem;
+  background-color: rgb(99, 139, 151);
+  border-radius: 1rem;
+  transition: transform 0.5s;
+
   &:hover {
-    transition: all 0.5s;
     transform: translateY(-5px);
+    transition: transform 0.5s;
+  }
+  
+}
+
+.carouselText {
+  @include flexBetween(column);
+  padding: 1rem;
+}
+
+#imageBot {
+  width: 300px;
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: translateY(-50px);
+    transition: transform 0.5s;
   }
 }
+
