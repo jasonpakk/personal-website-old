@@ -15,8 +15,8 @@ const Experience = () => {
               <p className="experienceTitle">{item.title}</p>
 
               <div className="experienceIcons">
-                <i className="fas fa-map-marker-alt"><p>{item.location}</p></i>
-                <i className="far fa-calendar-alt"><p>{item.time}</p></i>
+                <i className="fas fa-map-marker-alt iconDisplay"><p>{item.location}</p></i>
+                <i className="far fa-calendar-alt iconDisplay"><p>{item.time}</p></i>
               </div>
 
               <CourseList title="Description" courses={item.descrp} />

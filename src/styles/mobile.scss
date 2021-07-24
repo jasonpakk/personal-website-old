@@ -113,6 +113,20 @@
     margin-top: 1rem;
   }
 
+  // PROJECTS SECTION
+
+  .projectItem {
+    height: auto;
+  }
+
+  .projectText {
+    min-width: 45vw;
+  }
+    
+  .projectImage {
+    width: 200px;
+  }
+
   // CONTACT SECTION
   .contactIcons {
     @include flex(row, center);

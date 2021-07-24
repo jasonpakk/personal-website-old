@@ -16,8 +16,8 @@ const Education = () => {
               <p className="degreeText">{item.degree}</p>
 
               <div className="schoolIcons">
-                <i className="fas fa-map-marker-alt"><p>{item.location}</p></i>
-                <i className="far fa-calendar-alt"><p>{item.time}</p></i>
+                <i className="fas fa-map-marker-alt iconDisplay"><p>{item.location}</p></i>
+                <i className="far fa-calendar-alt iconDisplay"><p>{item.time}</p></i>
               </div>
 
               <CourseList title="Relevant Coursework" courses={item.courses} />

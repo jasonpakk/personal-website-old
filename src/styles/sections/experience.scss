@@ -70,23 +70,5 @@
 .experienceIcons {
   @include flex(row, center);
   margin-bottom: 1rem;
-
-  i {
-    @include flex(row, center);
-    margin-right: 2rem;
-    color: $black;
-    padding: 0.5rem 1rem;
-    box-shadow: 0px 3px 10px $shadow-color;
-    border-radius: 1rem;
-    
-    p {
-      margin: 0;
-      font-family: $font-1;
-      font-size: 1.1rem;
-      font-weight: 100;
-      color: $black;
-      padding-left: 0.5rem;
-    }
-  }
 }
 

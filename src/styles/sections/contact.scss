@@ -3,13 +3,10 @@
 }
 
 .contactIcons {
-  a {
-    color: $black;
-  }
-
   i {
     padding: 1rem;
     color: $white;
+    transition: all 0.5s;
 
     &:hover {
     cursor: pointer;
@@ -17,28 +14,34 @@
     transition: all 0.5s;
     }
   }
+}
 
-  .emailIcon {
-    &:hover {
-      color: #78C257;
-      }
-  }
+.emailIcon {
+  &:hover {
+    color: #78C257;
+    }
+}
 
-  .githubIcon {
-    &:hover {
-      color: #FFA500;
-      }
-  }
+.githubIcon {
+  &:hover {
+    color: #dbaeff;
+    }
+}
 
-  .facebookIcon {
-    &:hover {
-      color: #006AFF;
-      }
-  }
+.facebookIcon {
+  &:hover {
+    color: #006AFF;
+    }
+}
 
-  .instagramIcon {
-    &:hover {
-      color: #E1306C;
-      }
-  }
+.instagramIcon {
+  &:hover {
+    color: #E1306C;
+    }
+}
+
+.youtubeIcon {
+  &:hover {
+    color: #ff0100;
+    }
 }
