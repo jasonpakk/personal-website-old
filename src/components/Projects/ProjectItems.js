@@ -1,9 +1,12 @@
 const ProjectItems = [
   {
     project: 'jasonpak.me',
-    description: 'A personal website',
-    img: '/src/img/botthoven.png',
-    bg: 'rgb(99, 19, 151)',
+    description: 'What you are seeing right now! A personal project applying my skills in web development and UI/UX Design.',
+    img: {
+      src: '/src/img/jpme.png',
+      width: '300px',
+    },
+    bg: '#6D9DC5',
     languages: [
       {
         name: 'HTML',
@@ -29,19 +32,22 @@ const ProjectItems = [
     icons: [
       {
         name: 'fab fa-github githubIcon',
-        link: 'hi',
+        link: 'https://github.com/JY2452/jasonpak.me',
       },
       {
-        name: 'fab fa-youtube youtubeIcon',
-        link: 'hi',
+        name: 'fas fa-desktop desktopIcon',
+        link: 'https://jasonpak.me/',
       },
     ],
   },
   {
     project: 'Bot-thoven',
-    description: 'A xylophone playing robot A xylophone playing robot',
-    img: '/src/img/botthoven.png',
-    bg: 'rgb(99, 19, 151)',
+    description: 'A xylophone-playing robot that is controlled using an Arduino microcontroller. I wrote a program in C++ that allows the user to program the robot to perform any desired tune.',
+    img: {
+      src: '/src/img/botthoven.png',
+      width: '250px',
+    },
+    bg: '#52b788',
     languages: [
       {
         name: 'C++',
@@ -57,11 +63,11 @@ const ProjectItems = [
     icons: [
       {
         name: 'fab fa-github githubIcon',
-        link: 'hi',
+        link: 'https://github.com/JY2452/bot-thoven',
       },
       {
         name: 'fab fa-youtube youtubeIcon',
-        link: 'hi',
+        link: 'https://youtu.be/9Ag7zkTR_XE',
       },
     ],
   },

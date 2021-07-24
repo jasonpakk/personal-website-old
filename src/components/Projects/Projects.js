@@ -9,7 +9,7 @@ const Projects = () => {
 
       {ProjectItems.map((item) => {
         return (
-          <div style={{ background: item.bg }} className="projectItem" key={item.logo}>
+          <div style={{ background: item.bg }} className="projectItem" key={item.project}>
             <div className="projectText">
 
               <p className="projectTitle">{item.project}</p>
@@ -17,7 +17,9 @@ const Projects = () => {
               <div className="projectLanguage">
                 {item.languages.map((language) => {
                   return (
-                    <p style={{ background: language.bg, color: language.color }}>
+                    <p key={language.name}
+                      style={{ background: language.bg, color: language.color }}
+                    >
                       {language.name}
                     </p>
                   );
@@ -43,7 +45,7 @@ const Projects = () => {
 
             </div>
 
-            <img className="projectImage" src={item.img} alt="ProjectImage" />
+            <img className="projectImage" src={item.img.src} style={{ width: item.img.width }} alt="ProjectImage" />
           </div>
         );
       })}

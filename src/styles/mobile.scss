@@ -116,15 +116,35 @@
   // PROJECTS SECTION
 
   .projectItem {
-    height: auto;
+    @include flex(column, center);
   }
 
   .projectText {
     min-width: 45vw;
+    align-items: center;
+  }
+
+  .projectLanguage {
+    justify-content: space-around;
+
+    p {
+      margin: 0.5rem 0.5rem;
+    }
+  }
+
+  .projectIcons {
+    i {
+      padding: 1rem;
+    }
+  }
+
+  .projectDescr {
+    text-align: center;
+    margin: 1rem 0rem;
   }
     
   .projectImage {
-    width: 200px;
+    width: 200px !important;
   }
 
   // CONTACT SECTION
