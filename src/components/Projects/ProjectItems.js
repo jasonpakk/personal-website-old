@@ -1,9 +1,12 @@
+import jpme from '../../img/jpme.png';
+import botthoven from '../../img/botthoven.png';
+
 const ProjectItems = [
   {
     project: 'jasonpak.me',
     description: 'What you are seeing right now! A personal project applying my skills in web development and UI/UX Design.',
     img: {
-      src: '/src/img/jpme.png',
+      src: jpme,
       width: '300px',
     },
     bg: '#6D9DC5',
@@ -44,7 +47,7 @@ const ProjectItems = [
     project: 'Bot-thoven',
     description: 'A xylophone-playing robot that is controlled using an Arduino microcontroller. I wrote a program in C++ that allows the user to program the robot to perform any desired tune.',
     img: {
-      src: '/src/img/botthoven.png',
+      src: botthoven,
       width: '250px',
     },
     bg: '#52b788',
