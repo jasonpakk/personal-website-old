@@ -1,5 +1,5 @@
 import jpme from '../../img/jpme.png';
-import botthoven from '../../img/botthoven.png';
+import botthoven from '../../img/botthoven.gif';
 
 const ProjectItems = [
   {
@@ -7,9 +7,10 @@ const ProjectItems = [
     description: 'What you are seeing right now! A personal project applying my skills in web development and UI/UX Design.',
     img: {
       src: jpme,
-      width: '300px',
+      style: {
+        width: '300px',
+      },
     },
-    bg: '#6D9DC5',
     languages: [
       {
         name: 'HTML',
@@ -48,9 +49,13 @@ const ProjectItems = [
     description: 'A xylophone-playing robot that is controlled using an Arduino microcontroller. I wrote a program in C++ that allows the user to program the robot to perform any desired tune.',
     img: {
       src: botthoven,
-      width: '250px',
+      style: {
+        width: '270px',
+        borderRadius: '0.25rem',
+        boxShadow: '2px 2px 0px rgba(0,0,0,0.4)',
+        marginRight: '1rem',
+      },
     },
-    bg: '#52b788',
     languages: [
       {
         name: 'C++',

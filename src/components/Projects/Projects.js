@@ -9,7 +9,7 @@ const Projects = () => {
 
       {ProjectItems.map((item) => {
         return (
-          <div style={{ background: item.bg }} className="projectItem" key={item.project}>
+          <div className="projectItem" key={item.project}>
             <div className="projectText">
 
               <p className="projectTitle">{item.project}</p>
@@ -45,7 +45,7 @@ const Projects = () => {
 
             </div>
 
-            <img className="projectImage" src={item.img.src} style={{ width: item.img.width }} alt="ProjectImage" />
+            <img className="projectImage" src={item.img.src} style={item.img.style} alt="ProjectImage" />
           </div>
         );
       })}
