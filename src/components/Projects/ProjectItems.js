@@ -37,10 +37,12 @@ const ProjectItems = [
       {
         name: 'fab fa-github githubIcon',
         link: 'https://github.com/JY2452/jasonpak.me',
+        text: 'Repo',
       },
       {
         name: 'fas fa-desktop desktopIcon',
         link: 'https://jasonpak.me/',
+        text: 'Website',
       },
     ],
   },
@@ -72,10 +74,12 @@ const ProjectItems = [
       {
         name: 'fab fa-github githubIcon',
         link: 'https://github.com/JY2452/bot-thoven',
+        text: 'Repo',
       },
       {
         name: 'fab fa-youtube youtubeIcon',
         link: 'https://youtu.be/9Ag7zkTR_XE',
+        text: 'Demo',
       },
     ],
   },

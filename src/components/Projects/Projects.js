@@ -37,7 +37,7 @@ const Projects = () => {
                       aria-label={item.name}
                       key={icon.name}
                     >
-                      <i className={icon.name} />
+                      <i className={icon.name}><p>{icon.text}</p></i>
                     </a>
                   );
                 })}

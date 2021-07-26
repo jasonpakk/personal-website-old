@@ -133,8 +133,10 @@
   }
 
   .projectIcons {
+    @include flex(column, flex-start);
+
     i {
-      padding: 1rem;
+      margin: 0.3rem 0rem;
     }
   }
 

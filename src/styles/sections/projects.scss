@@ -9,7 +9,7 @@
   width: 75vw;
   min-height: 250px;
   margin: 3rem 0rem;
-  padding: 1rem;
+  padding: 2rem 1rem;
   border-radius: 0.4rem;
   box-shadow: 10px 10px 10px $shadow-color;
   transition: transform 0.5s;
@@ -51,7 +51,7 @@
 }
 
 .projectDescr {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: $black;
   text-align: left;
 }
@@ -59,17 +59,51 @@
 .projectIcons {
   @include flex(row, flex-start);
 
-  i {
-    padding-right: 2rem;
-    font-size: 2.5rem;
-    color: $black;
+  a {
+    text-decoration: none;
     transition: all 0.5s;
 
     &:hover {
-    cursor: pointer;
-    transform: translateY(-5px);
-    transition: all 0.5s;
+      cursor: pointer;
+      transform: translateY(-5px);
+      transition: all 0.5s;
+      }
+  }
+
+  i {
+    @include flex(row, flex-start);
+    padding: 0.6rem 0.4rem 0.6rem 0.7rem;
+    font-size: 2rem;
+    color: $white;
+    background: $black;
+    margin-right: 1.5rem;
+    border-radius: 0.5rem;
+   
+    p {
+      color: $white;
+      font-size: 1rem;
+      font-weight: 100;
+      margin: 0;
+      padding: 0.5rem 0.7rem;
     }
+  }
+}
+
+.githubIcon {
+  &:hover, &:hover p {
+    color: #f6bd60;
+  }
+}
+
+.desktopIcon {
+  &:hover, &:hover p {
+    color: #4cc9f0;
+  }
+}
+
+.youtubeIcon {
+  &:hover, &:hover p {
+    color: #ff0100;
   }
 }
 
