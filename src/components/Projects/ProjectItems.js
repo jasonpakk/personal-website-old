@@ -4,7 +4,7 @@ import botthoven from '../../img/botthoven.gif';
 const ProjectItems = [
   {
     project: 'jasonpak.me',
-    description: 'What you are seeing right now! A personal project applying my skills in web development and UI/UX Design.',
+    description: 'What you are seeing right now! A personal website applying my skills in web development and UI/UX Design.',
     img: {
       src: jpme,
       style: {

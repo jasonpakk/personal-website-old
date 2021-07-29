@@ -1,7 +1,7 @@
 #about {
   background: linear-gradient(to bottom, #343a40, #001d3d);
   padding-top: 10rem;
-  min-height: 170vh;
+  min-height: 190vh;
 
   h3 {
     width: fit-content;
@@ -71,11 +71,16 @@
     i {
       color: $white;
       font-size: 7rem;
+      transition: all 0.5s;
 
       &:hover{
         transform: translateY(-5px);
-        transition: transform 0.5s;
+        transition: all 0.5s;
       }
+    }
+
+    p {
+      transition: all 0.5s;
     }
   }
 

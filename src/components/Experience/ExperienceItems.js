@@ -6,8 +6,9 @@ const ExperienceItems = [
     time: 'Jun 2021 - Present',
     title: 'Full Stack Developer',
     descrp: [
-      'Used React Native to build the first-ever wellness app tailored to clinicians',
+      'Used full stack mobile development skills to build the first-ever wellness app tailored to clinicians',
       'Used Node.js to create a backend API that can handle CRUD calls necessary for storing user data',
+      'Built a statistics page that allows hospitals to observe analytics on how their employees are using the app',
     ],
   },
   {
