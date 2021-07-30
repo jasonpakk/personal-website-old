@@ -64,6 +64,7 @@
     "react-intersection-observer": "^8.32.0",
     "react-particles-js": "^2.4.0",
     "react-responsive-carousel": "^3.2.19",
+    "react-reveal": "^1.2.2",
     "react-router": "^5.2.0",
     "tsparticles": "^1.30.2"
   }
