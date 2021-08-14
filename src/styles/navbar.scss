@@ -4,14 +4,12 @@ nav {
   width: 100%;
   z-index: 1;
   top: 0px;
-  transition: background-color 1.5s;
 }
 
 #navLogo {
   @include flex(row, center);
   margin-left: 0.5rem;
   cursor: pointer;
-  transition: color 1.5s;
 }
 
 #faceLogo {
@@ -42,12 +40,10 @@ nav {
   margin: 0rem 0.5rem;
   font-size: 1.3rem;
   border-radius: 0.5rem;
-  transition: color 1.5s;
 
   &:hover {
     cursor: pointer;
     text-decoration: underline;
-    transition: all 0.2s ease-out;
   }
 }
 

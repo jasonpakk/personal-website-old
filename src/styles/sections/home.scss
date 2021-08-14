@@ -1,12 +1,12 @@
 #home {
   background: linear-gradient(to bottom, #03071e, #343a40);
-  justify-content: center;
+  justify-content: flex-start;
   padding-top: 0rem;
-  height: 100vh;
+  height: 130vh;
 }
 
 .particles {
-  margin-top: 5vh;
+  margin-top: 15vh;
 }
 
 .homeContact {
@@ -32,7 +32,7 @@
 
   &:hover {
     cursor: pointer;
-    color: #CCE5FF;
+    color: #caf0f8;
     transform: translateY(-5px);
     transition: all 0.5s;
     }

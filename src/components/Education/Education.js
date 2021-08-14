@@ -12,8 +12,8 @@ const Education = () => {
 
       {EducationItems.map((item, index) => {
         return (
-          <Fade bottom>
-            <div className="educationItem" key={item.school}>
+          <Fade bottom key={item.school}>
+            <div className="educationItem">
 
               <Flip left>
                 <div>

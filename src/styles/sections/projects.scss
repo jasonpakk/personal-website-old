@@ -1,6 +1,6 @@
 #projects {
   background: linear-gradient(to bottom, #5c677d, #33415c);
-  min-height: 190vh;
+  min-height: 140vh;
 }
 
 .projectItem {
@@ -47,6 +47,13 @@
     padding: 0.2rem 0.7rem;
     margin-right: 1rem;
     box-shadow: 0px 3px 5px $shadow-color;
+    transition: all 0.5s;
+
+    &:hover {
+      cursor: pointer;
+      transform: translateY(-2px);
+      transition: all 0.5s;
+    }
   }
 }
 

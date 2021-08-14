@@ -12,8 +12,8 @@ const Experience = () => {
 
       {ExperienceItems.map((item) => {
         return (
-          <Fade bottom>
-            <div className="experienceItem" key={item.logo}>
+          <Fade bottom key={item.logo}>
+            <div className="experienceItem">
 
               <Flip left>
                 <div>
