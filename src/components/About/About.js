@@ -1,16 +1,21 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
+import Flip from 'react-reveal/Flip';
 import LanguagesList from './LanguagesList';
 
 const About = () => {
   return (
     <section data-index="1" id="about">
-      <Fade bottom>
-        <h2>About Me</h2>
-      </Fade>
-      <Fade bottom>
-        <div id="aboutBody">
-          <div id="portrait" />
+      <h2>About Me</h2>
+
+      <div id="aboutBody">
+        <Flip left>
+          <div>
+            <div id="portrait" />
+          </div>
+        </Flip>
+        <Slide right>
           <div id="aboutText">
             <h3>Hello!</h3>
             <p>
@@ -20,8 +25,9 @@ const About = () => {
               software in the form of websites or mobile apps.
             </p>
           </div>
-        </div>
-      </Fade>
+        </Slide>
+      </div>
+
       <Fade bottom>
         <div id="languages">
           <h3>Languages + Technologies</h3>
