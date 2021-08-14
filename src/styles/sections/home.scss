@@ -6,14 +6,34 @@
 }
 
 .particles {
-  //position: absolute;
   margin-top: 5vh;
-  //height: 88vh;
-  max-width: 600px;
 }
 
-#homeText {
-  p {
-    margin: 1rem;
+.homeContact {
+  i {
+    font-size: 2rem;
+    padding: 1rem;
+    color: $white;
+    transition: all 0.5s;
+
+    &:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: all 0.5s;
+    }
   }
+}
+
+.downButton {
+  font-size: 2rem;
+  padding: 3rem 0rem;
+  color: $white;
+  transition: all 0.5s;
+
+  &:hover {
+    cursor: pointer;
+    color: #CCE5FF;
+    transform: translateY(-5px);
+    transition: all 0.5s;
+    }
 }

@@ -37,15 +37,9 @@ class NavBar extends Component {
   }
 
   handleTextStyle = () => {
-    if (this.props.active === 'Home' && !this.state.clicked) {
-      return {
-        color: '#f8f9fa',
-      };
-    } else {
-      return {
-        color: '#03071e',
-      };
-    }
+    return {
+      color: '#03071e',
+    };
   }
 
   render() {
@@ -53,16 +47,16 @@ class NavBar extends Component {
       return null;
     } else {
       return (
-        <nav style={this.props.active === 'Home' ? { background: 'transparent' } : { background: '#f8f9fa' }}>
+        <nav style={{ background: '#f8f9fa' }}>
           <h1 id="navLogo"
-            style={this.props.active === 'Home' ? { color: '#f8f9fa' } : { color: '#03071e' }}
+            style={{ color: '#03071e' }}
           >
             <a href="/" aria-label="home"><div id="faceLogo" /></a>
             Jason Pak
           </h1>
           <div id="hamburgerIcon" role="button" tabIndex={0} onClick={this.handleIconClick}>
             <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}
-              style={this.props.active === 'Home' ? { color: '#f8f9fa' } : { color: '#03071e' }}
+              style={{ color: '#03071e' }}
             />
           </div>
           <ul className={this.state.clicked ? 'navMenu active' : 'navMenu'}>

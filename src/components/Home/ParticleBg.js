@@ -7,11 +7,11 @@ const ParticleBackground = () => {
   return (
     <ParticleImage
       className="particles"
-      scale={0.80}
       maxParticles={10000}
       backgroundColor="transparent"
       src={img}
-      width={600}
+      width={1000}
+      height={500}
       mouseMoveForce={(x, y) => forces.disturbance(x, y, 10)}
       touchMoveForce={(x, y) => forces.disturbance(x, y, 10)}
       mouseDownForce={(x, y) => forces.disturbance(x, y, 50)}
@@ -21,7 +21,7 @@ const ParticleBackground = () => {
           const pixel = image.get(x, y);
           return pixel.r === 255;
         },
-        color: () => '#fff',
+        color: () => '#f8f9fa',
         friction: () => 0.30,
         initialPosition: ({ canvasDimensions }) => {
           return new Vector(
