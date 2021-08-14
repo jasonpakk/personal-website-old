@@ -1,14 +1,21 @@
 import React from 'react';
-import ParticleBackground from './ParticleBackground';
+// import ParticleBackground from './ParticleBackground';
+import ParticleBackground from './ParticleBg';
 
 const Home = () => {
+  const handleMenuClick = (event) => {
+    document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section data-index="0" id="home">
       <ParticleBackground />
-      <div id="homeText">
-        <h2>Jason Pak</h2>
-        <p>Computer Science @ Dartmouth College</p>
-      </div>
+
+      <p className="navLinks"
+        onClick={handleMenuClick}
+      >
+        V
+      </p>
 
     </section>
   );

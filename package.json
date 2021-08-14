@@ -62,6 +62,7 @@
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
     "react-intersection-observer": "^8.32.0",
+    "react-particle-image": "^1.0.1",
     "react-particles-js": "^2.4.0",
     "react-responsive-carousel": "^3.2.19",
     "react-reveal": "^1.2.2",

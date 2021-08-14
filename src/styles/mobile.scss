@@ -9,6 +9,10 @@
     position: relative;
   }
 
+  .particles {
+    width: 80vw;
+  }
+
   // NAV BAR
   .navMenu {
     @include flex(column, center);
