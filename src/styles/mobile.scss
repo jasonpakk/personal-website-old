@@ -9,10 +9,6 @@
     position: relative;
   }
 
-  .particles {
-    width: 110vw;
-  }
-
   // NAV BAR
   .navMenu {
     @include flex(column, center);
@@ -165,6 +161,15 @@
     a {
       width: 30%;
     }
+  }
+}
+
+@media only screen and (max-width:570px) {
+
+  .particles {
+    margin-top: 22vh;
+    width: 450px;
+    height: 250px;
   }
 }
   

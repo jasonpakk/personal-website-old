@@ -2,6 +2,7 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import Flip from 'react-reveal/Flip';
+import Typical from 'react-typical';
 import LanguagesList from './LanguagesList';
 
 const About = () => {
@@ -17,7 +18,11 @@ const About = () => {
         </Flip>
         <Slide right>
           <div id="aboutText">
-            <h3>Hello!</h3>
+            <Typical
+              steps={['> ', 1500, '> Hello world! 👋', 3000]}
+              loop={Infinity}
+              wrapper="h3"
+            />
             <p>
               My name is <b>Jason</b> and I&apos;m a developer from Northern Virginia.
               Currently, I am a <b>Sophomore (&apos;24) at Dartmouth</b> where I am majoring in Computer Science.
