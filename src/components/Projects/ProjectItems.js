@@ -1,5 +1,6 @@
-import jpme from '../../img/jpme.png';
+import jpme from '../../img/jpme.gif';
 import botthoven from '../../img/botthoven.gif';
+import minesweeper from '../../img/minesweeper.gif';
 
 const ProjectItems = [
   {
@@ -8,7 +9,7 @@ const ProjectItems = [
     img: {
       src: jpme,
       style: {
-        width: '300px',
+        width: '400px',
       },
     },
     languages: [
@@ -52,7 +53,7 @@ const ProjectItems = [
     img: {
       src: botthoven,
       style: {
-        width: '270px',
+        width: '370px',
         borderRadius: '0.25rem',
         boxShadow: '2px 2px 0px rgba(0,0,0,0.4)',
         marginRight: '1rem',
@@ -80,6 +81,30 @@ const ProjectItems = [
         name: 'fab fa-youtube youtubeIcon',
         link: 'https://youtu.be/9Ag7zkTR_XE',
         text: 'Demo',
+      },
+    ],
+  },
+  {
+    project: 'Minesweeper',
+    description: 'A Minesweeper clone that I built from scratch. The game supports functionality such as right-click to flag, different game levels, sound effects, and a high scores page.',
+    img: {
+      src: minesweeper,
+      style: {
+        width: '400px',
+      },
+    },
+    languages: [
+      {
+        name: 'Java',
+        bg: '#e37207',
+        color: 'f8f9fa',
+      },
+    ],
+    icons: [
+      {
+        name: 'fab fa-github githubIcon',
+        link: 'https://github.com/JY2452/minesweeper',
+        text: 'Repo',
       },
     ],
   },
