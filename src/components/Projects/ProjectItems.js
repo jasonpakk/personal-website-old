@@ -1,6 +1,6 @@
 import jpme from '../../img/jpme.gif';
 import botthoven from '../../img/botthoven.gif';
-import minesweeper from '../../img/minesweeper.gif';
+import minesweeper from '../../img/mines.gif';
 
 const ProjectItems = [
   {
