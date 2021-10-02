@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import MenuItems from './MenuItems';
 
 const gradients = [
-  '#03071e',
   'linear-gradient(to bottom, #343a40, #001d3d)',
   'linear-gradient(to bottom, #001d3d, #014f86)',
   'linear-gradient(to bottom, #014f86, #5c677d)',
   'linear-gradient(to bottom, #5c677d, #33415c)',
   'linear-gradient(to bottom, #33415c, #001233)',
+  'linear-gradient(to bottom, #001233, #03071e)',
 ];
 
 class NavBar extends Component {
@@ -63,12 +63,12 @@ class NavBar extends Component {
             {MenuItems.map((item, index) => {
               return (
                 <li className="navLinks"
-                  style={this.props.active === item.title ? this.handleBackgroundStyle(index) : this.handleTextStyle()}
-                  key={item.title}
-                  data-page={item.title.toLowerCase()}
+                  style={this.props.active === item ? this.handleBackgroundStyle(index) : this.handleTextStyle()}
+                  key={item}
+                  data-page={item.toLowerCase()}
                   onClick={this.handleMenuClick}
                 >
-                  {item.title}
+                  {item}
                 </li>
               );
             })}
