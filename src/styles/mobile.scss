@@ -154,6 +154,20 @@
     margin: 1rem 0rem !important;
   }
 
+  // PERSONAL SECTION
+  #cooking {
+    @include flex(column, space-evenly);
+  }
+
+  #cookingText {
+    max-width: 70vw;
+    margin-bottom: 0rem;
+  }
+
+  #foodPictures {
+    max-width: 80vw;
+  }
+
   // CONTACT SECTION
   .contactIcons {
     @include flex(row, center);
