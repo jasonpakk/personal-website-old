@@ -38,7 +38,7 @@ const Home = () => {
             aria-label="downbutton"
           />
           <p>
-            Visit Website
+            See More
           </p>
         </div>
       </Fade>
