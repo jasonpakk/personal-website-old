@@ -155,16 +155,19 @@
   }
 
   // PERSONAL SECTION
-  #cooking {
-    @include flex(column, space-evenly);
+  .personalSection  {
+    @include flex(column, center);
+    align-items: center;
   }
 
-  #cookingText {
+  .personalText {
     max-width: 70vw;
-    margin-bottom: 0rem;
+    margin: 0rem;
   }
 
+  #musicMedia, 
   #foodPictures {
+    margin: 0rem;
     max-width: 80vw;
   }
 

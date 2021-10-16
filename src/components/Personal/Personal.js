@@ -13,7 +13,11 @@ const Personal = () => {
       <div className="personalSection">
         <div className="personalText">
           <h3>🎻 Music</h3>
-          <p>Text goes here about music</p>
+          <p>
+            In addition to studying CS, I am double majoring in <b>Music</b> at Dartmouth.
+            On campus, I am a member of the Dartmouth Symphony Orchestra, where I play the <b>viola</b>,
+            an instrument I began playing in fourth grade.
+          </p>
         </div>
 
         <div id="musicMedia">
@@ -44,8 +48,12 @@ const Personal = () => {
       <div className="personalSection">
         <div className="personalText">
           <h3>👨‍🍳 Cooking</h3>
-          <p>I enjoy cooking delicious foods. Check out some of the
-            dishes I&apos;ve made over the years!
+          <p>
+            While I enjoy delicious foods, I also enjoy making them as well.
+            From Korean to Italian, I enjoy making my go-to dishes, as well as trying out new recipes.
+          </p>
+          <p>
+            Check out some of the dishes I&apos;ve made over the years!
           </p>
 
         </div>

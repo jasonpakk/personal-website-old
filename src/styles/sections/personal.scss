@@ -1,5 +1,6 @@
 #personal {
   background: linear-gradient(to bottom, #33415c, #001233);
+  height: 200%;
 
   h3 {
     font-size: 2.5rem;
@@ -18,6 +19,17 @@
   width: 500px;
   margin: 2rem;
   margin-left: 5rem;
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  b {
+    font-family: $font-2;
+    font-size: 1.2rem;
+    font-weight: 1000;
+    color: #caf0f8;
+  }
 }
 
 #musicMedia {
