@@ -49,7 +49,7 @@ const Personal = () => {
         <div className="personalText">
           <h3>👨‍🍳 Cooking</h3>
           <p>
-            While I enjoy delicious foods, I also enjoy making them as well.
+            While I enjoy eating delicious foods, I also enjoy making them as well.
             From Korean to Italian, I enjoy making my go-to dishes, as well as trying out new recipes.
           </p>
           <p>
