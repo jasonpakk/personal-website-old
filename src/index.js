@@ -15,6 +15,7 @@ const App = () => {
   const [eduRef, eduView] = useInView(options);
   const [expRef, expView] = useInView(options);
   const [projRef, projView] = useInView(options);
+  const [persRef, persView] = useInView(options);
   const [contRef, contView] = useInView(options);
 
   const getActive = () => {
@@ -26,6 +27,8 @@ const App = () => {
       return 'Experience';
     } else if (projView) {
       return 'Projects';
+    } else if (persView) {
+      return 'Personal';
     } else if (contView) {
       return 'Contact';
     } else {
@@ -41,6 +44,7 @@ const App = () => {
         eduRef={eduRef}
         expRef={expRef}
         projRef={projRef}
+        persRef={persRef}
         contRef={contRef}
       />
     </div>

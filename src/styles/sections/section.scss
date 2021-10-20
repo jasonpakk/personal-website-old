@@ -3,12 +3,14 @@
 @import "./education.scss";
 @import "./experience.scss";
 @import "./projects.scss";
+@import "./personal.scss";
 @import "./contact.scss";
 
 section {
     @include flex(column, flex-start);
     min-height: 80vh;
     padding-top: 120px;
+    padding-bottom: 120px;
   
     h2 {
       font-size: 4rem;

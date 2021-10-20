@@ -1,22 +1,10 @@
 const MenuItems = [
-  {
-    title: 'Home',
-  },
-  {
-    title: 'About',
-  },
-  {
-    title: 'Education',
-  },
-  {
-    title: 'Experience',
-  },
-  {
-    title: 'Projects',
-  },
-  {
-    title: 'Contact',
-  },
+  'About',
+  'Education',
+  'Experience',
+  'Projects',
+  'Personal',
+  'Contact',
 ];
 
 export default MenuItems;

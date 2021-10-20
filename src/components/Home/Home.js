@@ -30,13 +30,16 @@ const Home = () => {
       </Fade>
 
       <Fade bottom delay={1000}>
-        <div>
-          <i className="fas fa-chevron-circle-down downButton"
+        <div id="downButton">
+          <i className="fas fa-chevron-circle-down"
             onClick={handleButtonClick}
             role="button"
             tabIndex={0}
             aria-label="downbutton"
           />
+          <p>
+            See More
+          </p>
         </div>
       </Fade>
 

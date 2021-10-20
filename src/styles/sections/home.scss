@@ -13,7 +13,7 @@
 .homeContact {
   i {
     font-size: 2rem;
-    padding: 3vh 1rem;
+    padding: 0vh 1rem 7vh 1rem;
     color: $white;
     transition: all 0.5s;
 
@@ -25,16 +25,31 @@
   }
 }
 
-.downButton {
-  font-size: 2rem;
-  padding: 3vh 0vh;
-  color: $white;
-  transition: all 0.5s;
-
-  &:hover {
-    cursor: pointer;
-    color: #caf0f8;
-    transform: translateY(-5px);
+#downButton {
+  i {
+    font-size: 2.5rem;
+    padding-top: 3vh;
+    color: #a7e9ed;
     transition: all 0.5s;
-    }
+  
+    &:hover {
+      cursor: pointer;
+      color: #2ba6d4;
+      transform: translateY(-5px);
+      transition: all 0.5s;
+  
+        + p {
+          visibility: visible;
+          color: #2ba6d4;
+          transition: all 1s;
+        }
+      }
+  }
+
+  p {
+    font-family: $font-1;
+    color: transparent;
+    transition: all 1s;
+  }
+  
 }

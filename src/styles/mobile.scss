@@ -1,4 +1,4 @@
-@media only screen and (max-width:929px) {
+@media only screen and (max-width:940px) {
 
   html {
     overflow-x: hidden;
@@ -154,6 +154,23 @@
     margin: 1rem 0rem !important;
   }
 
+  // PERSONAL SECTION
+  .personalSection  {
+    @include flex(column, center);
+    align-items: center;
+  }
+
+  .personalText {
+    max-width: 70vw;
+    margin: 0rem;
+  }
+
+  #musicMedia, 
+  #foodPictures {
+    margin: 0rem;
+    max-width: 80vw;
+  }
+
   // CONTACT SECTION
   .contactIcons {
     @include flex(row, center);
@@ -170,6 +187,13 @@
     margin-top: 22vh;
     width: 450px;
     height: 250px;
+  }
+
+  .foodImage {
+    img {
+      width: 100px;
+      height: 100px;
+    }
   }
 }
   

@@ -4,7 +4,7 @@ import ContactItems from './ContactItems';
 
 const Contact = () => {
   return (
-    <section data-index="5" id="contact">
+    <section data-index="6" id="contact">
       <Fade bottom>
         <h2>Contact</h2>
       </Fade>
