@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import FoodItems from './FoodItems';
 
 import img1 from '../../img/personal/viola1.jpg';
-import img2 from '../../img/personal/viola2.jpg';
+import img2 from '../../img/personal/viola2.JPG';
 
 const Personal = () => {
   return (

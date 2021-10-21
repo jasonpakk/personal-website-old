@@ -1,4 +1,4 @@
-import corn from '../../img/personal/corn.jpg';
+import corn from '../../img/personal/corn.JPG';
 import kbbq from '../../img/personal/kbbq.jpg';
 import nacho from '../../img/personal/nacho.jpg';
 import padthai from '../../img/personal/padthai.jpg';
