@@ -69,7 +69,7 @@ const Personal = () => {
           <div id="foodPictures">
             {FoodItems.map((food) => {
               return (
-                <div className="foodImage">
+                <div key={food.name} className="foodImage">
                   <div>
                     <img src={food.img} alt="default" />
                   </div>

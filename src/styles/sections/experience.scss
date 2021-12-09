@@ -37,6 +37,11 @@
   background-size: 290px;
 }
 
+#daliLogo {
+  background-image: url('/src/img/dali.jpeg');
+  background-size: 200px;
+}
+
 .experienceText {
   @include flex(column, flex-start);
   align-items: flex-start;

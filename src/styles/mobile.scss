@@ -189,11 +189,23 @@
     height: 250px;
   }
 
+  #musicMedia {
+    img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+
   .foodImage {
     img {
-      width: 100px;
-      height: 100px;
+      width: 120px;
+      height: 120px;
     }
+  }
+
+  .hoverImg {  
+    width: 120px;
+    height: 120px;
   }
 }
   
