@@ -2,6 +2,7 @@ import doodlegram from '../../img/doodlegram.gif';
 import jpme from '../../img/jpme.gif';
 import botthoven from '../../img/botthoven.gif';
 import minesweeper from '../../img/mines.gif';
+import spaceInvaders from '../../img/spaceinvaders.gif';
 
 const ProjectItems = [
   {
@@ -159,6 +160,30 @@ const ProjectItems = [
       {
         name: 'fab fa-github githubIcon',
         link: 'https://github.com/JY2452/minesweeper',
+        text: 'Repo',
+      },
+    ],
+  },
+  {
+    project: 'Space Invaders',
+    description: 'A simplified Space Invaders clone made in Python. The game supports functionality such as tracking user score, randomized enemy shooting, and tracking health with a health bar.',
+    img: {
+      src: spaceInvaders,
+      style: {
+        width: '400px',
+      },
+    },
+    languages: [
+      {
+        name: 'Python',
+        bg: '#FFD43B',
+        color: '#03071e',
+      },
+    ],
+    icons: [
+      {
+        name: 'fab fa-github githubIcon',
+        link: 'https://github.com/JY2452/space-invaders',
         text: 'Repo',
       },
     ],
