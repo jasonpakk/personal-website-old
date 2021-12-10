@@ -1,18 +1,29 @@
+import doodlegram from '../../img/doodlegram.gif';
 import jpme from '../../img/jpme.gif';
 import botthoven from '../../img/botthoven.gif';
 import minesweeper from '../../img/mines.gif';
 
 const ProjectItems = [
   {
-    project: 'jasonpak.me',
-    description: 'What you are seeing right now! A personal website applying my skills in web development and UI/UX Design.',
+    project: 'Doodlegram',
+    description: 'A social media site where users can share doodles with others. For the frontend, I used React. For the backend, I built a CRUD API server using Node.js, Express, and mongoDB.',
     img: {
-      src: jpme,
+      src: doodlegram,
       style: {
         width: '400px',
       },
     },
     languages: [
+      {
+        name: 'React',
+        bg: '#61DBFB',
+        color: '#03071e',
+      },
+      {
+        name: 'Node.js',
+        bg: '#3C873A',
+        color: '#f8f9fa',
+      },
       {
         name: 'HTML',
         bg: '#e34c26',
@@ -28,9 +39,53 @@ const ProjectItems = [
         bg: '#f0db4f',
         color: '#03071e',
       },
+    ],
+    icons: [
+      {
+        name: 'fab fa-github githubIcon',
+        link: 'https://github.com/JY2452/doodlegram-FE',
+        text: 'Repo (FE)',
+      },
+      {
+        name: 'fab fa-github githubIcon',
+        link: 'https://github.com/JY2452/doodlegram-BE',
+        text: 'Repo (BE)',
+      },
+      {
+        name: 'fas fa-desktop desktopIcon',
+        link: 'https://doodlegram.netlify.app',
+        text: 'Website',
+      },
+    ],
+  },
+  {
+    project: 'jasonpak.me',
+    description: 'What you are seeing right now! A personal website applying my skills in web development and UI/UX Design.',
+    img: {
+      src: jpme,
+      style: {
+        width: '400px',
+      },
+    },
+    languages: [
       {
         name: 'React',
         bg: '#61DBFB',
+        color: '#03071e',
+      },
+      {
+        name: 'HTML',
+        bg: '#e34c26',
+        color: 'f8f9fa',
+      },
+      {
+        name: 'CSS',
+        bg: '#1496d0',
+        color: 'f8f9fa',
+      },
+      {
+        name: 'Javascript',
+        bg: '#f0db4f',
         color: '#03071e',
       },
     ],
