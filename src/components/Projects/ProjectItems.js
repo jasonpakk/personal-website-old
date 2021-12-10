@@ -189,6 +189,11 @@ const ProjectItems = [
         link: 'https://youtu.be/9Ag7zkTR_XE',
         text: 'Demo',
       },
+      {
+        name: 'fas fa-desktop desktopIcon',
+        link: 'https://hackaday.io/project/167574-bot-thoven-a-robot-musician',
+        text: 'Website',
+      },
     ],
   },
   {
