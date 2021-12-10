@@ -1,4 +1,5 @@
 import doodlegram from '../../img/doodlegram.gif';
+import vitalize from '../../img/vitalize.gif';
 import jpme from '../../img/jpme.gif';
 import botthoven from '../../img/botthoven.gif';
 import minesweeper from '../../img/mines.gif';
@@ -56,6 +57,56 @@ const ProjectItems = [
         name: 'fas fa-desktop desktopIcon',
         link: 'https://doodlegram.netlify.app',
         text: 'Website',
+      },
+    ],
+  },
+  {
+    project: 'Vitalize App + Dashboard',
+    description: 'I worked in a team to build the first ever wellness app tailored to healthcare professionals.',
+    description2: 'In addition, I wrote algorithms to filter app data in the backend API, then created a webpage to visually represent this data in an User Analytics Dashboard.',
+    img: {
+      src: vitalize,
+      style: {
+        width: '400px',
+      },
+    },
+    languages: [
+      {
+        name: 'React Native',
+        bg: '#03071e',
+        color: '#61DBFB',
+      },
+      {
+        name: 'React',
+        bg: '#61DBFB',
+        color: '#03071e',
+      },
+      {
+        name: 'Node.js',
+        bg: '#3C873A',
+        color: '#f8f9fa',
+      },
+      {
+        name: 'HTML',
+        bg: '#e34c26',
+        color: 'f8f9fa',
+      },
+      {
+        name: 'CSS',
+        bg: '#1496d0',
+        color: 'f8f9fa',
+      },
+      {
+        name: 'Javascript',
+        bg: '#f0db4f',
+        color: '#03071e',
+      },
+    ],
+    icons: [
+      {
+        name: 'fas fa-desktop desktopIcon',
+        link: 'https://vitalize.tech/',
+        text: 'App Website',
       },
     ],
   },

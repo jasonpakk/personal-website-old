@@ -30,7 +30,7 @@ const Projects = () => {
                       })}
                     </div>
 
-                    <p className="projectDescr">{item.description}</p>
+                    <p className="projectDescr">{item.description} {item.description2}</p>
 
                     <div className="projectIcons">
                       {item.icons.map((icon) => {
@@ -39,7 +39,7 @@ const Projects = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label={item.name}
-                            key={icon.name}
+                            key={icon.text}
                           >
                             <i className={icon.name}><p>{icon.text}</p></i>
                           </a>
