@@ -137,10 +137,11 @@
   }
 
   .projectIcons {
-    @include flex(column, flex-start);
+    @include flex(row, center);
+    flex-wrap: wrap;
 
     i {
-      margin: 0.3rem 0rem;
+      margin: 0.4rem 0.5rem;
     }
   }
 
@@ -181,6 +182,7 @@
   }
 }
 
+// PHONE SCREEN
 @media only screen and (max-width:570px) {
 
   .particles {
@@ -188,6 +190,36 @@
     width: 450px;
     height: 220px;
     margin-bottom: 3rem;
+  }
+
+  .projectItem {
+    width: 85vw;
+  }
+
+  .projectText {
+    padding: 0.2rem;
+  }
+
+  .projectLanguage {
+    p {
+      font-size: 0.8rem;
+      margin: 0.5rem;
+    }
+  }
+
+  .projectIcons {
+    i {
+      font-size: 1rem;
+      padding: 0.3rem 0.2rem 0.3rem 0.35rem;
+
+      p {
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  .projectImage {
+    width: 70vw !important;
   }
 
   #musicMedia {
