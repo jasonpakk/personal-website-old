@@ -1,17 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
 const CourseList = (props) => {
+  const [active, setActive] = useState(false);
+
   return (
     <div className="courseList">
       <Accordion>
         <Card>
           <Card.Header>
-            <Accordion.Toggle as={Button} variant="link" eventKey="0">
+            <Accordion.Toggle as={Button}
+              variant="link"
+              eventKey="0"
+              onClick={() => setActive(!active)}
+            >
               {props.title}
-              <i className="fas fa-caret-down" />
+              <i className={active ? 'fas fa-caret-up' : 'fas fa-caret-down'} />
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="0">
