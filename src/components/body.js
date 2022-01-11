@@ -5,7 +5,7 @@ import About from './About/About';
 import Education from './Education/Education';
 import Experience from './Experience/Experience';
 import Projects from './Projects/Projects';
-import Personal from './Personal/Personal';
+import Music from './Music/Music';
 import Contact from './Contact/Contact';
 
 const Body = (props) => {
@@ -24,8 +24,8 @@ const Body = (props) => {
       <div ref={props.projRef}>
         <Projects />
       </div>
-      <div ref={props.persRef}>
-        <Personal />
+      <div ref={props.musRef}>
+        <Music />
       </div>
       <div ref={props.contRef}>
         <Contact />

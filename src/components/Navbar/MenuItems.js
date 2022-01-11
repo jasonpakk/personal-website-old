@@ -3,7 +3,7 @@ const MenuItems = [
   'Education',
   'Experience',
   'Projects',
-  'Personal',
+  'Music',
   'Contact',
 ];
 

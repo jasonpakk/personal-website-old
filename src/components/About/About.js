@@ -24,10 +24,15 @@ const About = () => {
               wrapper="h3"
             />
             <p>
-              My name is <b>Jason</b> and I&apos;m a developer from Northern Virginia.
-              Currently, I am a <b>Sophomore (&apos;24) at Dartmouth</b> where I am majoring in Computer Science.
-              As a developer, I enjoy applying my skills in <b>full stack development</b> to create
-              software in the form of websites or mobile apps.
+              My name is<b>Jason</b>and I&apos;m a<b>Sophomore (&apos;24) at Dartmouth</b>majoring in Computer Science.
+              Currently, I work as a<b>Software Engineer</b>at the
+              <a target="_blank"
+                rel="noopener noreferrer"
+                href="http://dali.dartmouth.edu/"
+              >DALI Lab
+              </a>
+              where I enjoy building software for companies around the world.
+              Scroll below to read more about the exciting projects and experiences I have been a part of!
             </p>
           </div>
         </Slide>

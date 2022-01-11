@@ -155,21 +155,10 @@
     margin: 1rem 0rem !important;
   }
 
-  // PERSONAL SECTION
-  .personalSection  {
+  // MUSIC SECTION
+  .musicSection  {
     @include flex(column, center);
     align-items: center;
-  }
-
-  .personalText {
-    max-width: 70vw;
-    margin: 0rem;
-  }
-
-  #musicMedia, 
-  #foodPictures {
-    margin: 0rem;
-    max-width: 80vw;
   }
 
   // CONTACT SECTION
