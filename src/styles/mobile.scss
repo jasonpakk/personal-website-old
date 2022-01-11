@@ -211,12 +211,19 @@
     width: 70vw !important;
   }
 
-  #musicMedia {
-    img {
-      width: 120px;
-      height: 120px;
+  .mediaItem {
+    padding: 0rem 5rem;
+    iframe {
+      width: 70vw;
+      height: 50vw;
+      border-radius: 1rem;
     }
   }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 30px;
+    width: 30px;
+   }
 
   .foodImage {
     img {
