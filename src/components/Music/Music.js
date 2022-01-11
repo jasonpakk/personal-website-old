@@ -2,7 +2,9 @@ import React from 'react';
 
 import Fade from 'react-reveal/Fade';
 
+import Carousel from 'react-bootstrap/Carousel';
 import img1 from '../../img/personal/viola1.jpg';
+import MediaItems from './MediaItems';
 
 const Music = () => {
   return (
@@ -33,25 +35,25 @@ const Music = () => {
 
       <Fade bottom>
         <div id="media">
-          <h3>🎻 Media 🎻</h3>
-          <iframe
-            width="280"
-            height="160"
-            src="https://www.youtube.com/embed/tUo7kLDjtFQ"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
-          <iframe
-            width="280"
-            height="160"
-            src="https://www.youtube.com/embed/MTrvcWXZhPQ"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
+          <Carousel fade>
+            {MediaItems.map((item) => {
+              return (
+                <Carousel.Item>
+                  <div className="mediaItem" key={item.name}>
+                    <iframe
+                      width="560"
+                      height="320"
+                      src={item.link}
+                      title="YouTube video player"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+                  </div>
+                </Carousel.Item>
+              );
+            })}
+          </Carousel>
         </div>
       </Fade>
 
