@@ -35,7 +35,7 @@ const Music = () => {
 
       <Fade bottom>
         <div id="media">
-          <Carousel fade>
+          <Carousel fade interval={null}>
             {MediaItems.map((item) => {
               return (
                 <Carousel.Item>
