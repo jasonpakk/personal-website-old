@@ -8,6 +8,7 @@ const EducationItems = [
     courses: [
       'COSC 52: Full-Stack Web Development',
       'COSC 50: Software Design and Implementation',
+      'COSC 31: Algorithms',
       'COSC 30: Discrete Mathematics in Computer Science',
       'COSC 10: Object-Oriented Programming',
       'ENGS 12: Design Thinking',

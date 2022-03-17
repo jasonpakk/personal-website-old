@@ -11,27 +11,29 @@ const Music = () => {
     <section data-index="5" id="music">
       <h2>Music</h2>
 
-      <div id="aboutBody">
-        <div>
-          <img id="musicport" src={img1} alt="music_img" />
-        </div>
+      <Fade bottom>
+        <div id="aboutBody">
+          <div>
+            <img id="musicport" src={img1} alt="music_img" />
+          </div>
 
-        <div id="aboutText">
-          <p>
-            In addition to studying CS, I am<b>double majoring in Music</b>at Dartmouth.
-            On campus, I am a member of the<b>Dartmouth Symphony Orchestra,</b>where I play the viola, an instrument I began playing in fourth grade.
-          </p>
-          <p>
-            In addition, I enjoy performing<b>chamber music</b>with friends and teach private lessons to elementary school students
-            through the
-            <a target="_blank"
-              rel="noopener noreferrer"
-              href="https://musical-empowerment.org/"
-            >Musical Empowerment
-            </a>program.
-          </p>
+          <div id="aboutText">
+            <p>
+              In addition to studying CS, I am<b>double majoring in Music</b>at Dartmouth.
+              On campus, I am a member of the<b>Dartmouth Symphony Orchestra,</b>where I play the viola, an instrument I began playing in fourth grade.
+            </p>
+            <p>
+              In addition, I enjoy performing<b>chamber music</b>with friends and teach private lessons to elementary school students
+              through the
+              <a target="_blank"
+                rel="noopener noreferrer"
+                href="https://musical-empowerment.org/"
+              >Musical Empowerment
+              </a>program.
+            </p>
+          </div>
         </div>
-      </div>
+      </Fade>
 
       <Fade bottom>
         <div id="media">

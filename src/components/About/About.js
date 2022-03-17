@@ -1,7 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
-import Flip from 'react-reveal/Flip';
 import Typical from 'react-typical';
 import LanguagesList from './LanguagesList';
 
@@ -10,33 +9,33 @@ const About = () => {
     <section data-index="1" id="about">
       <h2>About Me</h2>
 
-      <div id="aboutBody">
-        <Flip left>
+      <Fade bottom>
+        <div id="aboutBody">
           <div>
             <div id="portrait" />
           </div>
-        </Flip>
-        <Slide right>
-          <div id="aboutText">
-            <Typical
-              steps={['> ', 1500, '> Hello world! 👋', 3000]}
-              loop={Infinity}
-              wrapper="h3"
-            />
-            <p>
-              My name is<b>Jason</b>and I&apos;m a<b>Sophomore (&apos;24) at Dartmouth</b>majoring in Computer Science.
-              Currently, I work as a<b>Software Engineer</b>at the
-              <a target="_blank"
-                rel="noopener noreferrer"
-                href="http://dali.dartmouth.edu/"
-              >DALI Lab
-              </a>
-              where I enjoy building software for companies around the world.
-              Scroll below to read more about the exciting projects and experiences I have been a part of!
-            </p>
-          </div>
-        </Slide>
-      </div>
+          <Slide right>
+            <div id="aboutText">
+              <Typical
+                steps={['> ', 1500, '> Hello world! 👋', 3000]}
+                loop={Infinity}
+                wrapper="h3"
+              />
+              <p>
+                My name is<b>Jason</b>and I&apos;m a<b>Sophomore (&apos;24) at Dartmouth</b>majoring in Computer Science.
+                Currently, I work as a<b>Software Engineer</b>at the
+                <a target="_blank"
+                  rel="noopener noreferrer"
+                  href="http://dali.dartmouth.edu/"
+                >DALI Lab
+                </a>
+                where I enjoy building software for companies around the world.
+                Scroll below to read more about the exciting projects and experiences I have been a part of!
+              </p>
+            </div>
+          </Slide>
+        </div>
+      </Fade>
 
       <Fade bottom>
         <div id="languages">
