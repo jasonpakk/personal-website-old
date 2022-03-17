@@ -5,6 +5,7 @@ import Fade from 'react-reveal/Fade';
 import Carousel from 'react-bootstrap/Carousel';
 import img1 from '../../img/personal/viola1.jpg';
 import MediaItems from './MediaItems';
+import musicres from '../../img/personal/musicres.pdf';
 
 const Music = () => {
   return (
@@ -20,17 +21,16 @@ const Music = () => {
           <div id="aboutText">
             <p>
               In addition to studying CS, I am<b>double majoring in Music</b>at Dartmouth.
-              On campus, I am a member of the<b>Dartmouth Symphony Orchestra,</b>where I play the viola, an instrument I began playing in fourth grade.
+              On campus, I play viola with the<b>Dartmouth Symphony Orchestra,</b>and enjoy performing<b>chamber music</b>with friends.
             </p>
             <p>
-              In addition, I enjoy performing<b>chamber music</b>with friends and teach private lessons to elementary school students
-              through the
-              <a target="_blank"
-                rel="noopener noreferrer"
-                href="https://musical-empowerment.org/"
-              >Musical Empowerment
-              </a>program.
+              This spring, I will be<b>studying abroad in London</b>to finish up my music major in the musical capital of Europe!
             </p>
+            <a target="_blank"
+              rel="noopener noreferrer"
+              href={musicres}
+            >Biography & Repertoire List
+            </a>
           </div>
         </div>
       </Fade>
@@ -40,7 +40,7 @@ const Music = () => {
           <Carousel fade interval={null}>
             {MediaItems.map((item) => {
               return (
-                <Carousel.Item>
+                <Carousel.Item key={item.name}>
                   <div className="mediaItem" key={item.name}>
                     <iframe
                       width="560"
@@ -52,6 +52,9 @@ const Music = () => {
                       allowFullScreen
                     />
                   </div>
+                  <Carousel.Caption>
+                    <p>{item.caption}</p>
+                  </Carousel.Caption>
                 </Carousel.Item>
               );
             })}

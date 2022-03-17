@@ -10,7 +10,7 @@ const Education = () => {
 
       {EducationItems.map((item, index) => {
         return (
-          <div className="educationItem">
+          <div className="educationItem" key={item.school}>
 
             <div>
               <div id={item.logo} className="schoolLogo" />
