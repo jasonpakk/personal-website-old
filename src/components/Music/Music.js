@@ -19,16 +19,19 @@ const Music = () => {
           </div>
 
           <div id="aboutText">
+
             <p>
               In addition to studying CS, I am<b>double majoring in Music</b>at Dartmouth.
               On campus, I play viola with the<b>Dartmouth Symphony Orchestra,</b>and enjoy performing<b>chamber music</b>with friends.
               In Spring of 2022, I spent a term studying and performing music in<b>London</b>as part of Dartmouth&apos;s<b>Foreign Study Program.</b>
               I also enjoy teaching viola to young students through the<b>Musical Empowerment</b>program!
             </p>
+
             <a target="_blank"
               rel="noopener noreferrer"
               href={musicres}
             >Biography & Repertoire List
+              <i className="fa fa-cloud-download" />
             </a>
           </div>
         </div>
