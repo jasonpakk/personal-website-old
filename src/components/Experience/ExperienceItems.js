@@ -7,8 +7,9 @@ const ExperienceItems = [
     title: 'Software Developer',
     descrp: [
       'Hired as a developer for Dartmouth’s tech-entrepreneurial program and worked to create software for companies around the world in a team of designers, developers, and PMs',
+      'Worked as a mentor to help new members learn unfamiliar frameworks and reviewed applications of potential new developers',
       'Created a video calling feature using the Agora.io SDK that allows users to anonymize their voice when participating in mental health coaching sessions (Fall 2021)',
-      'Built a web application that helps ranchers monitor cattle weight during calving and breeding cycles (Winter 2022)',
+      'Built a full-stack web application for Holistic Management International that helps ranchers monitor cattle weight during calving and breeding cycles (Winter 2022)',
     ],
   },
   {

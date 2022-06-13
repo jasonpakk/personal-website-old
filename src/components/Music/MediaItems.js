@@ -1,8 +1,17 @@
+import pic1 from '../../img/personal/fsp1.png';
+import pic2 from '../../img/personal/fsp2.JPG';
+import pic3 from '../../img/personal/fsp3.JPEG';
+import pic4 from '../../img/personal/fsp4.JPG';
+import pic5 from '../../img/personal/fsp5.JPG';
+import pic6 from '../../img/personal/fsp6.png';
+import pic7 from '../../img/personal/fsp7.png';
+import pic8 from '../../img/personal/fsp8.jpg';
+
 const MediaItems = [
   {
     name: 'clarke',
     link: 'https://www.youtube.com/embed/tUo7kLDjtFQ',
-    caption: 'Performance of Rebecca Clarke\'s Viola Sonata (10/19/19)',
+    caption: 'Performance of Rebecca Clarke\'s Viola Sonata (Oct 2019)',
   },
   {
     name: 'smi',
@@ -10,14 +19,14 @@ const MediaItems = [
     caption: 'Don Juan and Brahms 1 with the NSO SMI Orchestra',
   },
   {
+    name: 'bowen',
+    link: 'https://www.youtube.com/embed/YX8Pvsdk_pQ',
+    caption: 'Performance of York Bowen\'s Viola Sonata in London, UK (June 2022)',
+  },
+  {
     name: 'souvenir',
     link: 'https://www.youtube.com/embed/4bydyqrdc08',
     caption: 'Performance of Tchaikovsky\'s Souvenir de Florence at the Kennedy Center',
-  },
-  {
-    name: 'schubert',
-    link: 'https://www.youtube.com/embed/D9qzYsX9-hM',
-    caption: 'Performance of Schubert\'s Cello Quintet (Mvt. 3)',
   },
   {
     name: 'mahler',
@@ -26,4 +35,31 @@ const MediaItems = [
   },
 ];
 
-export default MediaItems;
+const FSPPics = [
+  {
+    src: pic1,
+  },
+  {
+    src: pic2,
+  },
+  {
+    src: pic3,
+  },
+  {
+    src: pic4,
+  },
+  {
+    src: pic5,
+  },
+  {
+    src: pic6,
+  },
+  {
+    src: pic7,
+  },
+  {
+    src: pic8,
+  },
+];
+
+export { MediaItems, FSPPics };

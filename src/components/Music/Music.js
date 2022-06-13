@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 import Carousel from 'react-bootstrap/Carousel';
 import img1 from '../../img/personal/viola1.jpg';
-import MediaItems from './MediaItems';
+import { MediaItems, FSPPics } from './MediaItems';
 import musicres from '../../img/personal/musicres.pdf';
 
 const Music = () => {
@@ -22,9 +22,8 @@ const Music = () => {
             <p>
               In addition to studying CS, I am<b>double majoring in Music</b>at Dartmouth.
               On campus, I play viola with the<b>Dartmouth Symphony Orchestra,</b>and enjoy performing<b>chamber music</b>with friends.
-            </p>
-            <p>
-              This spring, I will be<b>studying abroad in London</b>to finish up my music major in the musical capital of Europe!
+              In Spring of 2022, I spent a term studying and performing music in<b>London</b>as part of Dartmouth&apos;s<b>Foreign Study Program.</b>
+              I also enjoy teaching viola to young students through the<b>Musical Empowerment</b>program!
             </p>
             <a target="_blank"
               rel="noopener noreferrer"
@@ -60,6 +59,17 @@ const Music = () => {
             })}
           </Carousel>
         </div>
+        <div id="fspPics">
+          <p>🇬🇧 Some pictures from my time in London! 🇬🇧</p>
+          <div className="images">
+            {FSPPics.map((item) => {
+              return (
+                <img className="musicport" src={item.src} alt="music_img" />
+              );
+            })}
+          </div>
+        </div>
+
       </Fade>
 
     </section>

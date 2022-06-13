@@ -161,6 +161,22 @@
     align-items: center;
   }
 
+  #fspPics {
+    p {
+      font-size: 1.2rem;
+    }
+
+    .images {
+      margin: 0rem 2rem;
+  
+      img {
+        margin: 0.3rem;
+        max-width: 32vw;
+        max-height: 32vw;
+      }
+    }
+   }
+
   // CONTACT SECTION
   .contactIcons {
     @include flex(row, center);
