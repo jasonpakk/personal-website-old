@@ -4,8 +4,10 @@ const EducationItems = [
     logo: 'dartLogo',
     location: 'Hanover, NH',
     time: 'Sep 2020 - Jun 2024',
-    degree: 'Pursuing a B.A. in Computer Science',
+    degree: 'B.A. in Computer Science and Music',
     courses: [
+      'COSC 70: Foundations of Applied Computer Science',
+      'COSC 63.01: AR and VR Development',
       'COSC 52: Full-Stack Web Development',
       'COSC 50: Software Design and Implementation',
       'COSC 31: Algorithms',

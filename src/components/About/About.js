@@ -22,14 +22,14 @@ const About = () => {
                 wrapper="h3"
               />
               <p>
-                My name is<b>Jason</b>and I&apos;m a<b>Sophomore (&apos;24) at Dartmouth</b>studying Computer Science.
+                My name is<b>Jason</b>and I&apos;m a<b>Junior (&apos;24) at Dartmouth</b>studying Computer Science.
                 Currently, I work as a<b>Software Engineer</b>at the
                 <a target="_blank"
                   rel="noopener noreferrer"
                   href="http://dali.dartmouth.edu/"
                 >DALI Lab
                 </a>
-                where I enjoy building software for companies around the world. In January of 2023, I will also be joining
+                where I enjoy developing software for companies around the world. In January of 2023, I will also be joining
                 <a target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.mathworks.com/"
