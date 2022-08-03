@@ -1,14 +1,50 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Slide from 'react-reveal/Slide';
 import ProjectItems from './ProjectItems';
 
 const Projects = () => {
+  const [filter, setFilter] = useState('all');
+
   return (
     <section data-index="4" id="projects">
       <h2>Projects</h2>
 
+      <div id="filterButtons">
+        <button
+          onClick={() => setFilter('all')}
+          type="button"
+          aria-label="allbutton"
+          className={filter === 'all' ? 'selectedButton' : null}
+        >ALL
+        </button>
+
+        <button
+          onClick={() => setFilter('personal')}
+          type="button"
+          aria-label="personalbutton"
+          className={filter === 'personal' ? 'selectedButton' : null}
+        >PERSONAL
+        </button>
+
+        <button
+          onClick={() => setFilter('team')}
+          type="button"
+          aria-label="teambutton"
+          className={filter === 'team' ? 'selectedButton' : null}
+        >TEAM
+        </button>
+
+        <button
+          onClick={() => setFilter('coursework')}
+          type="button"
+          aria-label="courseworkbutton"
+          className={filter === 'coursework' ? 'selectedButton' : null}
+        >COURSEWORK
+        </button>
+      </div>
+
       <div>
-        {ProjectItems.map((item) => {
+        {ProjectItems.filter((proj) => filter === 'all' || proj.filter === filter).map((item) => {
           return (
             <div className="projectItem" key={item.project}>
               <div className="projectText">

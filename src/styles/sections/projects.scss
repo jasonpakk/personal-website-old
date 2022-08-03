@@ -3,6 +3,36 @@
   min-height: 140vh;
 }
 
+#filterButtons {
+  button {
+    font-family: $font-1;
+    margin: 1rem;
+    background: #d8f3dc;
+    padding: 0.5rem 1.5rem;
+    border-radius: 15px;
+    border: none;
+    min-width: 50px;
+    box-shadow: 0px 3px 5px $shadow-color;
+    transition: all 0.5s;
+  
+  &:hover {
+    transform: translateY(-2px);
+    transition: transform 0.5s;
+    background: #016936;
+    color: $white;
+  } 
+  }
+
+  button:focus {outline:0;}
+
+  .selectedButton {
+    background: #016936;
+    color: $white;
+  }
+}
+
+
+
 .projectItem {
   @include flex(row, space-between);
   background-color: #f5f3f4;
