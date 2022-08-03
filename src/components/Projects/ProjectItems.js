@@ -1,13 +1,15 @@
-import doodlegram from '../../img/doodlegram.gif';
-import vitalize from '../../img/vitalize.gif';
-import holistic from '../../img/holistic.gif';
-import jpme from '../../img/jpme.gif';
-import botthoven from '../../img/botthoven.gif';
-import nuggets from '../../img/nuggets.gif';
-import minesweeper from '../../img/mines.gif';
-import spaceInvaders from '../../img/spaceinvaders.gif';
-import tse from '../../img/tse.png';
-import sketch from '../../img/sketch.gif';
+import doodlegram from '../../img/mockup/doodlegram.gif';
+import vitalize from '../../img/mockup/vitalize.gif';
+import holistic from '../../img/mockup/holistic.gif';
+import jpme from '../../img/mockup/jpme.gif';
+import botthoven from '../../img/mockup/botthoven.gif';
+import nuggets from '../../img/mockup/nuggets.gif';
+import minesweeper from '../../img/mockup/mines.gif';
+import spaceInvaders from '../../img/mockup/spaceinvaders.gif';
+import tse from '../../img/mockup/tse.png';
+import sketch from '../../img/mockup/sketch.gif';
+import notes from '../../img/mockup/notes.gif';
+import buzzfeed from '../../img/mockup/buzzfeed.gif';
 
 const ProjectItems = [
   {
@@ -208,6 +210,33 @@ const ProjectItems = [
     ],
   },
   {
+    project: 'Tiny Search Engine',
+    description: 'A three-part search engine that crawls the contents of webpages on a server, runs website indexing, and outputs a ranked list of pages based on the search query.',
+    description2: 'Supports search modifiers such as the AND & OR keywords when determining what URLs to display back to the user.',
+    filter: 'coursework',
+    img: {
+      src: tse,
+      style: {
+        height: '250px',
+        objectFit: 'cover',
+      },
+    },
+    languages: [
+      {
+        name: 'C',
+        bg: '#394aab',
+        color: '#f8f9fa',
+      },
+    ],
+    icons: [
+      {
+        name: 'fab fa-github githubIcon',
+        link: 'mailto:jaeyoung.pak8@gmail.com',
+        text: 'Contact to View Repo',
+      },
+    ],
+  },
+  {
     project: 'Bot-thoven',
     description: 'A xylophone-playing robot that is controlled using an Arduino microcontroller. I wrote a program in C++ that allows the user to program the robot to perform any desired tune.',
     filter: 'personal',
@@ -247,6 +276,56 @@ const ProjectItems = [
         name: 'fas fa-desktop desktopIcon',
         link: 'https://hackaday.io/project/167574-bot-thoven-a-robot-musician',
         text: 'Website',
+      },
+    ],
+  },
+  {
+    project: 'CollabNotes',
+    description: 'A live note editing app where multiple users can collaborate on a noteboard at one time, and edits are updated live across all users on the current noteboard.',
+    filter: 'coursework',
+    img: {
+      src: notes,
+      style: {
+        width: '400px',
+      },
+    },
+    languages: [
+      {
+        name: 'React',
+        bg: '#61DBFB',
+        color: '#03071e',
+      },
+      {
+        name: 'Firebase',
+        bg: '#ffa713',
+        color: '#f4f5f4',
+      },
+      {
+        name: 'HTML',
+        bg: '#e34c26',
+        color: 'f8f9fa',
+      },
+      {
+        name: 'CSS',
+        bg: '#1496d0',
+        color: 'f8f9fa',
+      },
+      {
+        name: 'Javascript',
+        bg: '#f0db4f',
+        color: '#03071e',
+      },
+    ],
+    icons: [
+      {
+        name: 'fas fa-desktop desktopIcon',
+        link: 'https://frosty-villani-15fd5f.netlify.app',
+        text: 'Website',
+      },
+      {
+        name: 'fab fa-github githubIcon',
+        link: 'mailto:jaeyoung.pak8@gmail.com',
+        text: 'Contact to View Repo',
       },
     ],
   },
@@ -302,33 +381,6 @@ const ProjectItems = [
     ],
   },
   {
-    project: 'Tiny Search Engine',
-    description: 'A three-part search engine that crawls the contents of webpages on a server, runs website indexing, and outputs a ranked list of pages based on the search query.',
-    description2: 'Supports search modifiers such as the AND & OR keywords when determining what URLs to display back to the user.',
-    filter: 'coursework',
-    img: {
-      src: tse,
-      style: {
-        height: '250px',
-        objectFit: 'cover',
-      },
-    },
-    languages: [
-      {
-        name: 'C',
-        bg: '#394aab',
-        color: '#f8f9fa',
-      },
-    ],
-    icons: [
-      {
-        name: 'fab fa-github githubIcon',
-        link: 'mailto:jaeyoung.pak8@gmail.com',
-        text: 'Contact to View Repo',
-      },
-    ],
-  },
-  {
     project: 'Space Invaders',
     description: 'A simplified Space Invaders clone made in Python. The game supports functionality such as tracking user score, randomized enemy shooting, and tracking health with a health bar.',
     filter: 'personal',
@@ -371,6 +423,46 @@ const ProjectItems = [
       },
     ],
     icons: [
+      {
+        name: 'fab fa-github githubIcon',
+        link: 'mailto:jaeyoung.pak8@gmail.com',
+        text: 'Contact to View Repo',
+      },
+    ],
+  },
+  {
+    project: 'BuzzFeed Quizzes',
+    description: 'Three buzzfeed-style quizzes that I created. The website reads in a JSON file containing the questions and answer choices and renders it on the screen for users to play.',
+    filter: 'coursework',
+    img: {
+      src: buzzfeed,
+      style: {
+        width: '400px',
+      },
+    },
+    languages: [
+      {
+        name: 'HTML',
+        bg: '#e34c26',
+        color: 'f8f9fa',
+      },
+      {
+        name: 'CSS',
+        bg: '#1496d0',
+        color: 'f8f9fa',
+      },
+      {
+        name: 'Javascript',
+        bg: '#f0db4f',
+        color: '#03071e',
+      },
+    ],
+    icons: [
+      {
+        name: 'fas fa-desktop desktopIcon',
+        link: 'https://dartmouth-cs52-21s.github.io/lab2-JY2452',
+        text: 'Website',
+      },
       {
         name: 'fab fa-github githubIcon',
         link: 'mailto:jaeyoung.pak8@gmail.com',

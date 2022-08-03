@@ -6,7 +6,7 @@ A personal website made using HTML + CSS + Javascript.
 
 [Visit the website here!](https://jasonpak.me/)
 
-![](src/img/jpme.gif)
+![](src/img/mockup/jpme.gif)
 
 # References
 * [Frontend Webpack](https://cs52.me/assignments/sa/starterpack/) Assignment from Dartmouth's CS 52 (Full Stack Web Development) Course.

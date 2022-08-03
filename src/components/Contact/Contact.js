@@ -1,6 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import ContactItems from './ContactItems';
+import resume from '../../img/JasonPak_Resume.pdf';
 
 const Contact = () => {
   return (
@@ -23,6 +24,15 @@ const Contact = () => {
             );
           })}
         </div>
+
+        <a
+          id="resume"
+          target="_blank"
+          rel="noopener noreferrer"
+          href={resume}
+        ><i className="fa fa-cloud-download" />Resume
+
+        </a>
       </Fade>
     </section>
   );
