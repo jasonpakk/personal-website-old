@@ -136,6 +136,15 @@
     }
   }
 
+  #filterButtons {
+    button {
+      margin: 0.5rem;
+      padding: 0.2rem 1rem;
+      border-radius: 15px;
+      font-size: 12px;
+    }
+  }
+
   .projectIcons {
     @include flex(row, center);
     flex-wrap: wrap;
