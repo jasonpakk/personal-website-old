@@ -185,15 +185,6 @@
       }
     }
    }
-
-  // CONTACT SECTION
-  .contactIcons {
-    @include flex(row, center);
-    flex-wrap: wrap;
-    a {
-      width: 30%;
-    }
-  }
 }
 
 // PHONE SCREEN

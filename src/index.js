@@ -11,6 +11,7 @@ const App = () => {
     threshold: 0.2,
   };
 
+  const [homeRef, homeView] = useInView(options);
   const [aboRef, aboView] = useInView(options);
   const [eduRef, eduView] = useInView(options);
   const [expRef, expView] = useInView(options);
@@ -19,7 +20,9 @@ const App = () => {
   const [contRef, contView] = useInView(options);
 
   const getActive = () => {
-    if (aboView) {
+    if (homeView) {
+      return 'Home';
+    } else if (aboView) {
       return 'About';
     } else if (eduView) {
       return 'Education';
@@ -32,7 +35,7 @@ const App = () => {
     } else if (contView) {
       return 'Contact';
     } else {
-      return 'Home';
+      return 'Projects';
     }
   };
 
@@ -40,6 +43,7 @@ const App = () => {
     <div>
       <Nav active={getActive()} />
       <Body
+        homeRef={homeRef}
         aboRef={aboRef}
         eduRef={eduRef}
         expRef={expRef}

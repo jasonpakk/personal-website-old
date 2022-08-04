@@ -11,7 +11,9 @@ import Contact from './Contact/Contact';
 const Body = (props) => {
   return (
     <main>
-      <Home />
+      <div ref={props.homeRef}>
+        <Home />
+      </div>
       <div ref={props.aboRef}>
         <About />
       </div>

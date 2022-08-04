@@ -43,7 +43,6 @@ class NavBar extends Component {
   }
 
   render() {
-    console.log(this.props.active);
     if (this.props.active === 'Home') {
       return null;
     } else {
