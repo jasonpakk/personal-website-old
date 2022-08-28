@@ -19,6 +19,11 @@ const MediaItems = [
     caption: 'Don Juan and Brahms 1 with the NSO SMI Orchestra',
   },
   {
+    name: 'brossette',
+    link: 'https://www.youtube.com/embed/qP1NytR8urI',
+    caption: 'Performance of B Rossette with Chamber Group at Dartmouth',
+  },
+  {
     name: 'bowen',
     link: 'https://www.youtube.com/embed/YX8Pvsdk_pQ',
     caption: 'Performance of York Bowen\'s Viola Sonata in London, UK (June 2022)',
@@ -27,6 +32,11 @@ const MediaItems = [
     name: 'souvenir',
     link: 'https://www.youtube.com/embed/4bydyqrdc08',
     caption: 'Performance of Tchaikovsky\'s Souvenir de Florence at the Kennedy Center',
+  },
+  {
+    name: 'vieuxtemps',
+    link: 'https://www.youtube.com/embed/LewztUiZxc4',
+    caption: 'Performance of Vieuxtemps\'s Viola Sonata at Dartmouth (Aug 2022)',
   },
   {
     name: 'mahler',

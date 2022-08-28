@@ -83,7 +83,7 @@ const Projects = () => {
 
               <Slide right>
                 <div>
-                  <img className="projectImage" src={item.img.src} style={item.img.style} alt="ProjectImage" />
+                  <img className={item.mobile ? null : 'projectImage'} src={item.img.src} style={item.img.style} alt="ProjectImage" />
                 </div>
               </Slide>
             </div>

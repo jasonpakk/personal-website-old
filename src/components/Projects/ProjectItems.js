@@ -10,6 +10,7 @@ import tse from '../../img/mockup/tse.png';
 import sketch from '../../img/mockup/sketch.gif';
 import notes from '../../img/mockup/notes.gif';
 import buzzfeed from '../../img/mockup/buzzfeed.gif';
+import fitkitch from '../../img/mockup/fitkitch.gif';
 
 const ProjectItems = [
   {
@@ -64,6 +65,60 @@ const ProjectItems = [
         name: 'fas fa-desktop desktopIcon',
         link: 'https://doodlegram.netlify.app',
         text: 'Website',
+      },
+    ],
+  },
+  {
+    project: 'FitKitch',
+    description: 'A mobile app that gamifies excercise to encourage individuals to stay fit. The app uses user data from Apple Healthkit to help users set daily workout goals.',
+    description2: 'Users unlock ingredients by completing their daily goal, and work in "kitchens" with other users to collaboratively unlock the dish of the day!',
+    filter: 'team',
+    mobile: true,
+    img: {
+      src: fitkitch,
+      style: {
+        width: '160px',
+        marginLeft: '60px',
+        marginRight: '60px',
+      },
+    },
+    languages: [
+      {
+        name: 'React Native',
+        bg: '#03071e',
+        color: '#61DBFB',
+      },
+      {
+        name: 'React',
+        bg: '#61DBFB',
+        color: '#03071e',
+      },
+      {
+        name: 'Node.js',
+        bg: '#3C873A',
+        color: '#f8f9fa',
+      },
+      {
+        name: 'HTML',
+        bg: '#e34c26',
+        color: 'f8f9fa',
+      },
+      {
+        name: 'CSS',
+        bg: '#1496d0',
+        color: 'f8f9fa',
+      },
+      {
+        name: 'Javascript',
+        bg: '#f0db4f',
+        color: '#03071e',
+      },
+    ],
+    icons: [
+      {
+        name: 'fab fa-github githubIcon',
+        link: 'mailto:jaeyoung.pak8@gmail.com',
+        text: 'Contact to View Repo',
       },
     ],
   },
