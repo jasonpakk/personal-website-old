@@ -4,14 +4,15 @@ const ExperienceItems = [
     logo: 'daliLogo',
     location: 'Hanover, NH',
     time: 'Sep 2021 - Present',
-    title: 'Software Developer',
+    title: 'Software Engineer & Dev Mentor',
     descrp: [
       'Built software products for companies around the world under 10-week deadlines by working in a team of developers, designers, and project managers',
-      'Worked as a Dev Mentor to help new members learn unfamiliar frameworks and reviewed applications of potential new developers',
+      'Worked as a Developer Mentor to help new members learn unfamiliar frameworks and reviewed applications of potential new developers',
       'Created a video calling feature using the Agora.io SDK that allows users to anonymize their voice when participating in mental health coaching sessions (Fall 2021)',
       'Built a full-stack web application for Holistic Management International that helps ranchers monitor cattle weight during calving and breeding cycles (Winter 2022)',
       'Learned Ruby on Rails to debug the codebase for a sexual violence prevention program used by incoming first-years at Dartmouth (Summer 2022)',
       'Developed a mobile app in React Native that uses data from Apple Healthkit to gamify and personalize exercise for users (Summer 2022)',
+      'Built a full-stack web application that makes use of the SMART goal framework to help orthopedic patients set effective healthcare goals (Fall 2022)',
     ],
   },
   {
