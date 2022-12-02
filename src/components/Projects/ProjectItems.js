@@ -1,9 +1,6 @@
-import drums from '../../img/mockup/drums.gif';
 import doodlegram from '../../img/mockup/doodlegram.gif';
 import vitalize from '../../img/mockup/vitalize.gif';
 import holistic from '../../img/mockup/holistic.gif';
-import jpme from '../../img/mockup/jpme.gif';
-import botthoven from '../../img/mockup/botthoven.gif';
 import minesweeper from '../../img/mockup/mines.gif';
 import spaceInvaders from '../../img/mockup/spaceinvaders.gif';
 import tse from '../../img/mockup/tse.png';
@@ -11,7 +8,7 @@ import sketch from '../../img/mockup/sketch.gif';
 import notes from '../../img/mockup/notes.gif';
 import buzzfeed from '../../img/mockup/buzzfeed.gif';
 import fitkitch from '../../img/mockup/fitkitch.gif';
-import terrace from '../../img/mockup/terrace.gif';
+import jpme from '../../img/mockup/jpme.gif';
 
 const ProjectItems = [
   {
@@ -19,7 +16,7 @@ const ProjectItems = [
     description: 'A virtual drum that uses Augmented Reality to allow users to easily record and save their own drum tracks.',
     filter: 'coursework',
     img: {
-      src: drums,
+      src: 'https://media.giphy.com/media/GnDCiHLuGZD7zmrNOM/giphy-downsized-large.gif',
       style: {
         width: '370px',
         borderRadius: '0.25rem',
@@ -313,7 +310,7 @@ const ProjectItems = [
     description: 'A Unity game where the user is locked out on a terrace, and must scavenge and collect items to make themselves a meal and survive.',
     filter: 'coursework',
     img: {
-      src: terrace,
+      src: 'https://media.giphy.com/media/O5q7a8MMCOAm9CiAXB/giphy.gif',
       style: {
         width: '370px',
         borderRadius: '0.25rem',
@@ -378,7 +375,7 @@ const ProjectItems = [
     description: 'A xylophone-playing robot that is controlled using an Arduino microcontroller. I wrote a program in C++ that allows the user to program the robot to perform any desired tune.',
     filter: 'personal',
     img: {
-      src: botthoven,
+      src: 'https://media.giphy.com/media/BhIZiJYZ1FaVuQVpO6/giphy.gif',
       style: {
         width: '370px',
         borderRadius: '0.25rem',
