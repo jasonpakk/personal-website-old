@@ -1,9 +1,9 @@
+import drums from '../../img/mockup/drums.gif';
 import doodlegram from '../../img/mockup/doodlegram.gif';
 import vitalize from '../../img/mockup/vitalize.gif';
 import holistic from '../../img/mockup/holistic.gif';
 import jpme from '../../img/mockup/jpme.gif';
 import botthoven from '../../img/mockup/botthoven.gif';
-import nuggets from '../../img/mockup/nuggets.gif';
 import minesweeper from '../../img/mockup/mines.gif';
 import spaceInvaders from '../../img/mockup/spaceinvaders.gif';
 import tse from '../../img/mockup/tse.png';
@@ -11,8 +11,52 @@ import sketch from '../../img/mockup/sketch.gif';
 import notes from '../../img/mockup/notes.gif';
 import buzzfeed from '../../img/mockup/buzzfeed.gif';
 import fitkitch from '../../img/mockup/fitkitch.gif';
+import terrace from '../../img/mockup/terrace.gif';
 
 const ProjectItems = [
+  {
+    project: 'AR Drum Set',
+    description: 'A virtual drum that uses Augmented Reality to allow users to easily record and save their own drum tracks.',
+    filter: 'coursework',
+    img: {
+      src: drums,
+      style: {
+        width: '370px',
+        borderRadius: '0.25rem',
+        boxShadow: '5px 5px 5px rgba(0,0,0,0.4)',
+        marginRight: '1rem',
+      },
+    },
+    languages: [
+      {
+        name: 'Unity',
+        bg: '#000',
+        color: '#fff',
+      },
+      {
+        name: 'C#',
+        bg: '#953dac',
+        color: '#fff',
+      },
+      {
+        name: 'Android Studio',
+        bg: '#92c755',
+        color: '#fff',
+      },
+    ],
+    icons: [
+      {
+        name: 'fab fa-github githubIcon',
+        link: 'https://github.com/JY2452/AR-Drumset',
+        text: 'Repo',
+      },
+      {
+        name: 'fab fa-youtube youtubeIcon',
+        link: 'https://youtu.be/DfeqlA-RrQQ',
+        text: 'Demo',
+      },
+    ],
+  },
   {
     project: 'Doodlegram',
     description: 'A social media site where users can share doodles with others. For the frontend, I used React. For the backend, I built a CRUD API server using Node.js, Express, and mongoDB.',
@@ -265,6 +309,44 @@ const ProjectItems = [
     ],
   },
   {
+    project: 'Terrace Survival',
+    description: 'A Unity game where the user is locked out on a terrace, and must scavenge and collect items to make themselves a meal and survive.',
+    filter: 'coursework',
+    img: {
+      src: terrace,
+      style: {
+        width: '370px',
+        borderRadius: '0.25rem',
+        boxShadow: '5px 5px 5px rgba(0,0,0,0.4)',
+        marginRight: '1rem',
+      },
+    },
+    languages: [
+      {
+        name: 'Unity',
+        bg: '#000',
+        color: '#fff',
+      },
+      {
+        name: 'C#',
+        bg: '#953dac',
+        color: '#fff',
+      },
+    ],
+    icons: [
+      {
+        name: 'fab fa-github githubIcon',
+        link: 'https://github.com/JY2452/terrace-survival',
+        text: 'Repo',
+      },
+      {
+        name: 'fab fa-youtube youtubeIcon',
+        link: 'https://youtu.be/THqoeknpMg0',
+        text: 'Demo',
+      },
+    ],
+  },
+  {
     project: 'Tiny Search Engine',
     description: 'A three-part search engine that crawls the contents of webpages on a server, runs website indexing, and outputs a ranked list of pages based on the search query.',
     description2: 'Supports search modifiers such as the AND & OR keywords when determining what URLs to display back to the user.',
@@ -300,7 +382,7 @@ const ProjectItems = [
       style: {
         width: '370px',
         borderRadius: '0.25rem',
-        boxShadow: '2px 2px 0px rgba(0,0,0,0.4)',
+        boxShadow: '5px 5px 5px rgba(0,0,0,0.4)',
         marginRight: '1rem',
       },
     },
@@ -377,32 +459,6 @@ const ProjectItems = [
         link: 'https://frosty-villani-15fd5f.netlify.app',
         text: 'Website',
       },
-      {
-        name: 'fab fa-github githubIcon',
-        link: 'mailto:jaeyoung.pak8@gmail.com',
-        text: 'Contact to View Repo',
-      },
-    ],
-  },
-  {
-    project: 'Nuggets',
-    description: 'A multi-player exploration game where users try to collect more gold nuggets than any other player.',
-    description2: 'Wrote unit and integration tests to ensure both the server and client ran as intended.',
-    filter: 'coursework',
-    img: {
-      src: nuggets,
-      style: {
-        width: '400px',
-      },
-    },
-    languages: [
-      {
-        name: 'C',
-        bg: '#394aab',
-        color: '#f8f9fa',
-      },
-    ],
-    icons: [
       {
         name: 'fab fa-github githubIcon',
         link: 'mailto:jaeyoung.pak8@gmail.com',
