@@ -71,13 +71,13 @@
 
   #languageList {
     @include flex(row, space-evenly);
-    width: 70%;
+    width: 90%;
     flex-wrap: wrap; 
   }
   
   .languageIcon {
-    width: 130px;
-    margin: 0.5rem;
+    width: 18%;
+    margin: 1rem 0.5rem;
     
     i {
       color: $white;
@@ -138,9 +138,21 @@
     }
   }
 
+  .cSharpIcon {
+    &:hover, &:hover + p {
+      color: #953dac;
+    }
+  }
+
   .pythonIcon {
     &:hover, &:hover + p {
       color: #FFD43B;
+    }
+  }
+
+  .unityIcon {
+    &:hover, &:hover + p {
+      color: #c0c0c0;
     }
   }
 }

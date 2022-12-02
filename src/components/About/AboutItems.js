@@ -35,9 +35,19 @@ const AboutItems = [
     key: 'cIcon',
   },
   {
+    name: 'C#',
+    icon: 'fas fa-hashtag cSharpIcon',
+    key: 'cSharpIcon',
+  },
+  {
     name: 'Python',
     icon: 'fab fa-python pythonIcon',
     key: 'pythonIcon',
+  },
+  {
+    name: 'Unity',
+    icon: 'fab fa-unity unityIcon',
+    key: 'unityIcon',
   },
 
 ];
