@@ -19,32 +19,40 @@ const Projects = () => {
         </button>
 
         <button
-          onClick={() => setFilter('personal')}
+          onClick={() => setFilter('web')}
           type="button"
-          aria-label="personalbutton"
-          className={filter === 'personal' ? 'selectedButton' : null}
-        >PERSONAL
+          aria-label="webbutton"
+          className={filter === 'web' ? 'selectedButton' : null}
+        >WEB
         </button>
 
         <button
-          onClick={() => setFilter('team')}
+          onClick={() => setFilter('mobile')}
           type="button"
-          aria-label="teambutton"
-          className={filter === 'team' ? 'selectedButton' : null}
-        >TEAM
+          aria-label="mobilebutton"
+          className={filter === 'mobile' ? 'selectedButton' : null}
+        >MOBILE
         </button>
 
         <button
-          onClick={() => setFilter('coursework')}
+          onClick={() => setFilter('arvr')}
           type="button"
-          aria-label="courseworkbutton"
-          className={filter === 'coursework' ? 'selectedButton' : null}
-        >COURSEWORK
+          aria-label="arvrbutton"
+          className={filter === 'arvr' ? 'selectedButton' : null}
+        >AR & VR
+        </button>
+
+        <button
+          onClick={() => setFilter('software')}
+          type="button"
+          aria-label="software"
+          className={filter === 'software' ? 'selectedButton' : null}
+        >OTHER
         </button>
       </div>
 
       <div>
-        {ProjectItems.filter((proj) => filter === 'all' || proj.filter === filter).map((item) => {
+        {ProjectItems.filter((proj) => filter === 'all' || proj.filter.includes(filter)).map((item) => {
           return (
             <div className="projectItem" key={item.project}>
               <div className="projectText">

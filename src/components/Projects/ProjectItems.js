@@ -14,7 +14,7 @@ const ProjectItems = [
   {
     project: 'AR Drum Set',
     description: 'A virtual drum that uses Augmented Reality to allow users to easily record and save their own drum tracks.',
-    filter: 'coursework',
+    filter: 'arvr mobile',
     img: {
       src: 'https://media.giphy.com/media/GnDCiHLuGZD7zmrNOM/giphy-downsized-large.gif',
       style: {
@@ -57,7 +57,7 @@ const ProjectItems = [
   {
     project: 'Doodlegram',
     description: 'A social media site where users can share doodles with others. For the frontend, I used React. For the backend, I built a CRUD API server using Node.js, Express, and mongoDB.',
-    filter: 'personal',
+    filter: 'web',
     img: {
       src: doodlegram,
       style: {
@@ -113,7 +113,7 @@ const ProjectItems = [
     project: 'FitKitch',
     description: 'A mobile app that gamifies excercise to encourage individuals to stay fit. The app uses user data from Apple Healthkit to help users set daily workout goals.',
     description2: 'Users unlock ingredients by completing their daily goal, and work in "kitchens" with other users to collaboratively unlock the dish of the day!',
-    filter: 'team',
+    filter: 'mobile',
     mobile: true,
     img: {
       src: fitkitch,
@@ -164,10 +164,45 @@ const ProjectItems = [
     ],
   },
   {
+    project: 'Space Colony',
+    description: 'A virtual reality farming simulator. The game is set in the final frontier and players can harvest crops, decorate the land with structures, and grow animals.',
+    filter: 'arvr',
+    img: {
+      src: 'https://media.giphy.com/media/SUHiCbpp1eobkpfc1T/giphy-downsized-large.gif',
+      style: {
+        width: '400px',
+      },
+    },
+    languages: [
+      {
+        name: 'Unity',
+        bg: '#000',
+        color: '#fff',
+      },
+      {
+        name: 'C#',
+        bg: '#953dac',
+        color: '#fff',
+      },
+    ],
+    icons: [
+      {
+        name: 'fab fa-youtube youtubeIcon',
+        link: 'https://youtu.be/qVChgCFsS1k',
+        text: 'Demo',
+      },
+      {
+        name: 'fab fa-github githubIcon',
+        link: 'mailto:jaeyoung.pak8@gmail.com',
+        text: 'Contact to View Repo',
+      },
+    ],
+  },
+  {
     project: 'Vitalize App + Dashboard',
     description: 'I worked in a team to build the first ever wellness app tailored to healthcare professionals.',
     description2: 'In addition, I wrote algorithms to filter app data in the backend API, then created a webpage to visually represent this data in an User Analytics Dashboard.',
-    filter: 'team',
+    filter: 'web mobile',
     img: {
       src: vitalize,
       style: {
@@ -209,8 +244,43 @@ const ProjectItems = [
     icons: [
       {
         name: 'fas fa-desktop desktopIcon',
-        link: 'https://vitalize.tech/',
-        text: 'App Website',
+        link: 'https://vitalizecare.co/',
+        text: 'Organization Website',
+      },
+    ],
+  },
+  {
+    project: 'VR Solar System Simulator',
+    description: 'A model of the solar system in Virtual Reality. A user can interact with the different planets to better visualize and understand the complexities that lie in the celestial world',
+    filter: 'arvr',
+    img: {
+      src: 'https://media.giphy.com/media/wK3LzfKDJg3W8SwosH/giphy-downsized-large.gif',
+      style: {
+        width: '400px',
+      },
+    },
+    languages: [
+      {
+        name: 'Unity',
+        bg: '#000',
+        color: '#fff',
+      },
+      {
+        name: 'C#',
+        bg: '#953dac',
+        color: '#fff',
+      },
+    ],
+    icons: [
+      {
+        name: 'fab fa-youtube youtubeIcon',
+        link: 'https://youtu.be/jzn9STFVCxM',
+        text: 'Demo',
+      },
+      {
+        name: 'fab fa-github githubIcon',
+        link: 'mailto:jaeyoung.pak8@gmail.com',
+        text: 'Contact to View Repo',
       },
     ],
   },
@@ -218,7 +288,7 @@ const ProjectItems = [
     project: 'Holistic Ranching',
     description: 'A full-stack webpage built to assist ranchers in monitoring cattle weight for succesful calving and breeding cycles.',
     description2: 'For the frontend, I used React. For the backend, I built a CRUD API server using Node.js, Express, and mongoDB.',
-    filter: 'team',
+    filter: 'web',
     img: {
       src: holistic,
       style: {
@@ -263,7 +333,7 @@ const ProjectItems = [
   {
     project: 'jasonpak.me',
     description: 'What you are seeing right now! A personal website applying my skills in web development and UI/UX Design.',
-    filter: 'personal',
+    filter: 'web',
     img: {
       src: jpme,
       style: {
@@ -308,7 +378,7 @@ const ProjectItems = [
   {
     project: 'Terrace Survival',
     description: 'A Unity game where the user is locked out on a terrace, and must scavenge and collect items to make themselves a meal and survive.',
-    filter: 'coursework',
+    filter: 'arvr',
     img: {
       src: 'https://media.giphy.com/media/O5q7a8MMCOAm9CiAXB/giphy.gif',
       style: {
@@ -344,36 +414,9 @@ const ProjectItems = [
     ],
   },
   {
-    project: 'Tiny Search Engine',
-    description: 'A three-part search engine that crawls the contents of webpages on a server, runs website indexing, and outputs a ranked list of pages based on the search query.',
-    description2: 'Supports search modifiers such as the AND & OR keywords when determining what URLs to display back to the user.',
-    filter: 'coursework',
-    img: {
-      src: tse,
-      style: {
-        height: '250px',
-        objectFit: 'cover',
-      },
-    },
-    languages: [
-      {
-        name: 'C',
-        bg: '#394aab',
-        color: '#f8f9fa',
-      },
-    ],
-    icons: [
-      {
-        name: 'fab fa-github githubIcon',
-        link: 'mailto:jaeyoung.pak8@gmail.com',
-        text: 'Contact to View Repo',
-      },
-    ],
-  },
-  {
     project: 'Bot-thoven',
     description: 'A xylophone-playing robot that is controlled using an Arduino microcontroller. I wrote a program in C++ that allows the user to program the robot to perform any desired tune.',
-    filter: 'personal',
+    filter: 'software',
     img: {
       src: 'https://media.giphy.com/media/BhIZiJYZ1FaVuQVpO6/giphy.gif',
       style: {
@@ -414,9 +457,36 @@ const ProjectItems = [
     ],
   },
   {
+    project: 'Tiny Search Engine',
+    description: 'A three-part search engine that crawls the contents of webpages on a server, runs website indexing, and outputs a ranked list of pages based on the search query.',
+    description2: 'Supports search modifiers such as the AND & OR keywords when determining what URLs to display back to the user.',
+    filter: 'software',
+    img: {
+      src: tse,
+      style: {
+        height: '250px',
+        objectFit: 'cover',
+      },
+    },
+    languages: [
+      {
+        name: 'C',
+        bg: '#394aab',
+        color: '#f8f9fa',
+      },
+    ],
+    icons: [
+      {
+        name: 'fab fa-github githubIcon',
+        link: 'mailto:jaeyoung.pak8@gmail.com',
+        text: 'Contact to View Repo',
+      },
+    ],
+  },
+  {
     project: 'CollabNotes',
     description: 'A live note editing app where multiple users can collaborate on a noteboard at one time, and edits are updated live across all users on the current noteboard.',
-    filter: 'coursework',
+    filter: 'web',
     img: {
       src: notes,
       style: {
@@ -466,7 +536,7 @@ const ProjectItems = [
   {
     project: 'Minesweeper',
     description: 'A Minesweeper clone that I built from scratch. The game supports functionality such as right-click to flag, different game levels, sound effects, and a high scores page.',
-    filter: 'personal',
+    filter: 'software',
     img: {
       src: minesweeper,
       style: {
@@ -491,7 +561,7 @@ const ProjectItems = [
   {
     project: 'Space Invaders',
     description: 'A simplified Space Invaders clone made in Python. The game supports functionality such as tracking user score, randomized enemy shooting, and tracking health with a health bar.',
-    filter: 'personal',
+    filter: 'software',
     img: {
       src: spaceInvaders,
       style: {
@@ -516,7 +586,7 @@ const ProjectItems = [
   {
     project: 'Sketch Collaborator',
     description: 'A live multi-client platform where users can draw together! Supports different shape and line tools, colors, and functionality to move, recolor, and delete existing shapes.',
-    filter: 'coursework',
+    filter: 'software',
     img: {
       src: sketch,
       style: {
@@ -541,7 +611,7 @@ const ProjectItems = [
   {
     project: 'BuzzFeed Quizzes',
     description: 'Three buzzfeed-style quizzes that I created. The website reads in a JSON file containing the questions and answer choices and renders it on the screen for users to play.',
-    filter: 'coursework',
+    filter: 'web',
     img: {
       src: buzzfeed,
       style: {
