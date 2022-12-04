@@ -251,7 +251,7 @@ const ProjectItems = [
   },
   {
     project: 'VR Solar System Simulator',
-    description: 'A model of the solar system in Virtual Reality. A user can interact with the different planets to better visualize and understand the complexities that lie in the celestial world',
+    description: 'A model of the solar system in Virtual Reality. A user can interact with the different planets to better visualize and understand the complexities that lie in the celestial world.',
     filter: 'arvr',
     img: {
       src: 'https://media.giphy.com/media/wK3LzfKDJg3W8SwosH/giphy-downsized-large.gif',
