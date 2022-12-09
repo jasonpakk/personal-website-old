@@ -1,11 +1,12 @@
-import pic1 from '../../img/personal/fsp1.png';
-import pic2 from '../../img/personal/fsp2.JPG';
-import pic3 from '../../img/personal/fsp3.JPEG';
-import pic4 from '../../img/personal/fsp4.JPG';
-import pic5 from '../../img/personal/fsp5.JPG';
-import pic6 from '../../img/personal/fsp6.png';
-import pic7 from '../../img/personal/fsp7.png';
-import pic8 from '../../img/personal/fsp8.jpg';
+import fsp1 from '../../img/personal/fsp_1.png';
+import fsp2 from '../../img/personal/fsp_2.jpeg';
+import fsp3 from '../../img/personal/fsp_3.JPG';
+import fsp4 from '../../img/personal/fsp_4.JPEG';
+import fsp5 from '../../img/personal/fsp_5.jpeg';
+import fsp6 from '../../img/personal/fsp_6.JPG';
+import fsp7 from '../../img/personal/fsp_7.jpeg';
+import fsp8 from '../../img/personal/fsp_8.JPG';
+import fsp9 from '../../img/personal/fsp_9.jpeg';
 
 const MediaItems = [
   {
@@ -47,29 +48,33 @@ const MediaItems = [
 
 const FSPPics = [
   {
-    src: pic1,
+    src: fsp1,
   },
   {
-    src: pic2,
+    src: fsp2,
   },
   {
-    src: pic3,
+    src: fsp3,
   },
   {
-    src: pic4,
+    src: fsp4,
   },
   {
-    src: pic5,
+    src: fsp5,
   },
   {
-    src: pic6,
+    src: fsp6,
   },
   {
-    src: pic7,
+    src: fsp7,
   },
   {
-    src: pic8,
+    src: fsp8,
   },
+  {
+    src: fsp9,
+  },
+
 ];
 
 export { MediaItems, FSPPics };
