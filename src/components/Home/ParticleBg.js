@@ -7,10 +7,10 @@ const ParticleBackground = () => {
   return (
     <ParticleImage
       className="particles"
-      maxParticles={10000}
+      maxParticles={9000}
       backgroundColor="transparent"
       src={img}
-      width={700}
+      width={800}
       mouseMoveForce={(x, y) => forces.disturbance(x, y, 10)}
       touchMoveForce={(x, y) => forces.disturbance(x, y, 10)}
       mouseDownForce={(x, y) => forces.disturbance(x, y, 50)}
