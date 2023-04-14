@@ -24,7 +24,6 @@ const ExperienceItems = [
     time: 'Jan 2023 - Mar 2023',
     titles: ['Software Engineer Intern'],
     descrp: [
-      'Outreach Chair and Marketing & Events Lead on the Core Leadership Team',
       'Intern for the Engineering Development Group (EDG) at MathWorks - Core Design Automation',
       'Designed and developed a new domain specific language (DSL) that allows users to easily describe, modify, and understand MATLAB Simulink block diagrams, reducing verbosity and increasing readability from its predecessors',
       'Built a compiler in JavaScript that interprets the domain specific language by first performing lexical & syntax analysis to represent the user input as an abstract syntax tree, then traversing the tree to formulate the appropriate Simulink diagram as an output',
