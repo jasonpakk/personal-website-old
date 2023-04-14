@@ -5,6 +5,7 @@
 
 .experienceItem {
   @include flex(row, center);
+  align-items: flex-start;
   margin: 2rem 0rem;
 }
 
@@ -38,8 +39,15 @@
 }
 
 #daliLogo {
-  background-image: url('/src/img/dali.jpeg');
+  background-image: url('/src/img/dali.png');
   background-size: 200px;
+  background-color: #94d3cd;
+}
+
+#mathworksLogo {
+  background-image: url('/src/img/mathworksLogo.png');
+  background-size: 150px;
+  background-color: #0167a4;
 }
 
 .experienceText {
@@ -50,6 +58,15 @@
 
   button {
     font-size: 1.2rem;
+  }
+
+  .experienceTitles {
+    margin-bottom: 1.5rem;
+    p {
+      margin: 0;
+      line-height: 1.2;
+      text-align: left;
+    }
   }
 
   ul {

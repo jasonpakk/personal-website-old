@@ -6,6 +6,7 @@ const EducationItems = [
     time: 'Sep 2020 - Jun 2024',
     degree: 'B.A. in Computer Science and Music',
     courses: [
+      'COSC 81: Principles of Robot Design and Programming',
       'COSC 70: Foundations of Applied Computer Science',
       'COSC 63.01: AR and VR Development',
       'COSC 52: Full-Stack Web Development',

@@ -19,7 +19,9 @@ const Experience = () => {
             <Slide right>
               <div className="experienceText">
                 <p className="experienceOrg">{item.org}</p>
-                <p className="experienceTitle">{item.title}</p>
+                <div className="experienceTitles">
+                  {item.titles.map((title) => { return <p>{title}</p>; })}
+                </div>
 
                 <div className="experienceIcons">
                   <i className="fas fa-map-marker-alt iconDisplay"><p>{item.location}</p></i>

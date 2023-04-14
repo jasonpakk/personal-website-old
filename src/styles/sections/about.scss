@@ -76,7 +76,7 @@
   }
   
   .languageIcon {
-    width: 18%;
+    width: 23%;
     margin: 1rem 0.5rem;
     
     i {
@@ -153,6 +153,18 @@
   .unityIcon {
     &:hover, &:hover + p {
       color: #c0c0c0;
+    }
+  }
+
+  .matlabIcon {
+    &:hover, &:hover + p {
+      color: #ff7d00;
+    }
+  }
+
+  .androidIcon {
+    &:hover, &:hover + p {
+      color: #3DDC84;
     }
   }
 }

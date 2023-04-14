@@ -49,6 +49,16 @@ const AboutItems = [
     icon: 'fab fa-unity unityIcon',
     key: 'unityIcon',
   },
+  {
+    name: 'MATLAB',
+    icon: 'fa fa-calculator matlabIcon',
+    key: 'matlab',
+  },
+  {
+    name: 'Android Studio',
+    icon: 'fab fa-android androidIcon',
+    key: 'android',
+  },
 
 ];
 

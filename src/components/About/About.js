@@ -25,11 +25,8 @@ const About = () => {
                 My name is<b>Jason</b>and I&apos;m a<b>Junior (&apos;24) at Dartmouth</b>studying Computer Science.
                 Currently, I work as a<b>Software Engineer</b>at the
                 <a target="_blank" rel="noopener noreferrer" href="http://dali.dartmouth.edu/">DALI Lab</a>
-                where I enjoy developing software for companies around the world. I&apos;m also happy to announce that I&apos;ll be joining
-                <a target="_blank" rel="noopener noreferrer" href="https://www.mathworks.com/">MathWorks (Spring)</a>
-                and
-                <a target="_blank" rel="noopener noreferrer" href="https://www.capitalone.com/">Capital One (Summer)</a>
-                as a Software Engineering Intern this year. Scroll below to read more about the exciting projects and experiences I have been a part of! 😀
+                where I enjoy developing software for companies around the world.
+                Scroll below to read more about the exciting projects and experiences I have been a part of! 😀
               </p>
             </div>
           </Slide>
