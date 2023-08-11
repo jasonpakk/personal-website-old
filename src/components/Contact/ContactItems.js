@@ -2,22 +2,22 @@ const ContactItems = [
   {
     name: 'Email',
     link: 'mailto:jaeyoung.pak8@gmail.com',
-    icon: 'fas fa-envelope fa-5x emailIcon',
+    icon: 'fa-solid fa-envelope fa-5x emailIcon',
   },
   {
     name: 'Linkedin',
     link: 'https://www.linkedin.com/in/jason-j-pak/',
-    icon: 'fab fa-linkedin fa-5x linkedinIcon',
+    icon: 'fa-brands fa-linkedin fa-5x linkedinIcon',
   },
   {
     name: 'Github',
-    link: 'https://github.com/JY2452',
-    icon: 'fab fa-github fa-5x githubIcon',
+    link: 'https://github.com/jasonpakk',
+    icon: 'fa-brands fa-github fa-5x githubIcon',
   },
   {
     name: 'Instagram',
     link: 'https://www.instagram.com/jasonpakk/',
-    icon: 'fab fa-instagram fa-5x instagramIcon',
+    icon: 'fa-brands fa-instagram fa-5x instagramIcon',
   },
 
 ];

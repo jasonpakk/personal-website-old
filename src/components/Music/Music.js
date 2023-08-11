@@ -30,7 +30,7 @@ const Music = () => {
             <a target="_blank"
               rel="noopener noreferrer"
               href={musicres}
-            ><i className="fa fa-cloud-download" />Biography & Repertoire List
+            ><i className="fa-solid fa-download" />Biography & Repertoire List
 
             </a>
           </div>

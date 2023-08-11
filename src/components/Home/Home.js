@@ -31,7 +31,7 @@ const Home = () => {
 
       <Fade bottom delay={1000}>
         <div id="downButton">
-          <i className="fas fa-chevron-circle-down"
+          <i className="fa-solid fa-circle-chevron-down"
             onClick={handleButtonClick}
             role="button"
             tabIndex={0}

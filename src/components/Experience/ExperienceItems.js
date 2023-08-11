@@ -1,20 +1,16 @@
 /* eslint-disable max-len */
 const ExperienceItems = [
   {
-    org: 'DALI Lab',
-    logo: 'daliLogo',
-    location: 'Hanover, NH',
-    time: 'Sep 2021 - Present',
-    titles: ['Core Leadership', 'Development Mentor', 'Software Engineer'],
+    org: 'Capital One',
+    logo: 'c1Logo',
+    location: 'McLean, VA',
+    time: 'Jun 2023 - Aug 2023',
+    titles: ['Software Engineer Intern'],
     descrp: [
-      'Outreach Chair and Marketing & Events Lead on the Core Leadership Team',
-      'Built software products for companies around the world under 10-week deadlines by working in a team of developers, designers, and project managers',
-      'Worked as a Developer Mentor to help new members learn unfamiliar frameworks and reviewed applications of potential new developers',
-      'Created a video calling feature using the Agora.io SDK that allows users to anonymize their voice when participating in mental health coaching sessions (Fall 2021)',
-      'Built a full-stack web application for Holistic Management International that helps ranchers monitor cattle weight during calving and breeding cycles (Winter 2022)',
-      'Learned Ruby on Rails to debug the codebase for a sexual violence prevention program used by incoming first-years at Dartmouth (Summer 2022)',
-      'Developed a mobile app in React Native that uses data from Apple Healthkit to gamify and personalize exercise for users (Summer 2022)',
-      'Built a full-stack web application that makes use of the SMART goal framework to help orthopedic patients set effective healthcare goals (Fall 2022)',
+      'Technology Internship Program (TIP) - Enterprise Consumer Technology',
+      'Built a user-friendly desktop application using Angular and Electron, empowering users to create and modify marketing webpages without the need for writing code',
+      'Developed a seamless chat interface by leveraging the power of an AI language model, enabling users to create and modify web content through natural language inputs',
+      'Demonstrated effective collaboration and leadership skills by engaging with stakeholders to gather project requirements, and worked with a team of developers to translate ideas into functional software features',
     ],
   },
   {
@@ -30,6 +26,23 @@ const ExperienceItems = [
       'Optimized the compiler by designing a new JSON-based data structure to serve as an intermediate representation (IR) of the input, and deployed the compiler as a web service to create an endpoint that internal developers at MathWorks can reference',
       'Added bidirectional support by building a compiler that converts Simulink diagrams back to the domain specific language, allowing for seamless conversions between the language and diagram model without file damage',
       'Wrote unit tests in JavaScript to verify the performance of each individual unit in the language compiler',
+    ],
+  },
+  {
+    org: 'DALI Lab',
+    logo: 'daliLogo',
+    location: 'Hanover, NH',
+    time: 'Sep 2021 - Present',
+    titles: ['Core Leadership', 'Development Mentor', 'Software Engineer'],
+    descrp: [
+      'Outreach Chair and Marketing & Events Lead on the Core Leadership Team',
+      'Built software products for companies around the world under 10-week deadlines by working in a team of developers, designers, and project managers',
+      'Worked as a Developer Mentor to help new members learn unfamiliar frameworks and reviewed applications of potential new developers',
+      'Created a video calling feature using the Agora.io SDK that allows users to anonymize their voice when participating in mental health coaching sessions (Fall 2021)',
+      'Built a full-stack web application for Holistic Management International that helps ranchers monitor cattle weight during calving and breeding cycles (Winter 2022)',
+      'Learned Ruby on Rails to debug the codebase for a sexual violence prevention program used by incoming first-years at Dartmouth (Summer 2022)',
+      'Developed a mobile app in React Native that uses data from Apple Healthkit to gamify and personalize exercise for users (Summer 2022)',
+      'Built a full-stack web application that makes use of the SMART goal framework to help orthopedic patients set effective healthcare goals (Fall 2022)',
     ],
   },
   {

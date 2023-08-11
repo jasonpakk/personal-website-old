@@ -150,6 +150,24 @@
     }
   }
 
+  .angularIcon {
+    &:hover, &:hover + p {
+      color: #c4042b;
+    }
+  }
+
+  .tsIcon {
+    &:hover, &:hover + p {
+      color: #2d79c7;
+    }
+  }
+
+  .electronIcon {
+    &:hover, &:hover + p {
+      color: #a0ebf9;
+    }
+  }
+
   .unityIcon {
     &:hover, &:hover + p {
       color: #c0c0c0;

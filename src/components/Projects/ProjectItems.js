@@ -43,12 +43,12 @@ const ProjectItems = [
     ],
     icons: [
       {
-        name: 'fab fa-github githubIcon',
+        name: 'fa-brands fa-github githubIcon',
         link: 'https://github.com/JY2452/AR-Drumset',
         text: 'Repo',
       },
       {
-        name: 'fab fa-youtube youtubeIcon',
+        name: 'fa-brands fa-youtube youtubeIcon',
         link: 'https://youtu.be/DfeqlA-RrQQ',
         text: 'Demo',
       },
@@ -93,17 +93,17 @@ const ProjectItems = [
     ],
     icons: [
       {
-        name: 'fab fa-github githubIcon',
+        name: 'fa-brands fa-github githubIcon',
         link: 'https://github.com/JY2452/doodlegram-FE',
         text: 'Repo (FE)',
       },
       {
-        name: 'fab fa-github githubIcon',
+        name: 'fa-brands fa-github githubIcon',
         link: 'https://github.com/JY2452/doodlegram-BE',
         text: 'Repo (BE)',
       },
       {
-        name: 'fas fa-desktop desktopIcon',
+        name: 'fa-solid fa-desktop desktopIcon',
         link: 'https://doodlegram.netlify.app',
         text: 'Website',
       },
@@ -157,7 +157,7 @@ const ProjectItems = [
     ],
     icons: [
       {
-        name: 'fab fa-github githubIcon',
+        name: 'fa-brands fa-github githubIcon',
         link: 'mailto:jaeyoung.pak8@gmail.com',
         text: 'Contact to View Repo',
       },
@@ -187,12 +187,12 @@ const ProjectItems = [
     ],
     icons: [
       {
-        name: 'fab fa-youtube youtubeIcon',
+        name: 'fa-brands fa-youtube youtubeIcon',
         link: 'https://youtu.be/qVChgCFsS1k',
         text: 'Demo',
       },
       {
-        name: 'fab fa-github githubIcon',
+        name: 'fa-brands fa-github githubIcon',
         link: 'mailto:jaeyoung.pak8@gmail.com',
         text: 'Contact to View Repo',
       },
@@ -243,7 +243,7 @@ const ProjectItems = [
     ],
     icons: [
       {
-        name: 'fas fa-desktop desktopIcon',
+        name: 'fa-solid fa-desktop desktopIcon',
         link: 'https://vitalizecare.co/',
         text: 'Organization Website',
       },
@@ -273,12 +273,12 @@ const ProjectItems = [
     ],
     icons: [
       {
-        name: 'fab fa-youtube youtubeIcon',
+        name: 'fa-brands fa-youtube youtubeIcon',
         link: 'https://youtu.be/jzn9STFVCxM',
         text: 'Demo',
       },
       {
-        name: 'fab fa-github githubIcon',
+        name: 'fa-brands fa-github githubIcon',
         link: 'mailto:jaeyoung.pak8@gmail.com',
         text: 'Contact to View Repo',
       },
@@ -324,7 +324,7 @@ const ProjectItems = [
     ],
     icons: [
       {
-        name: 'fas fa-desktop desktopIcon',
+        name: 'fa-solid fa-desktop desktopIcon',
         link: 'https://holisticranching.netlify.app',
         text: 'Website',
       },
@@ -364,12 +364,12 @@ const ProjectItems = [
     ],
     icons: [
       {
-        name: 'fab fa-github githubIcon',
+        name: 'fa-brands fa-github githubIcon',
         link: 'https://github.com/JY2452/jasonpak.me',
         text: 'Repo',
       },
       {
-        name: 'fas fa-desktop desktopIcon',
+        name: 'fa-solid fa-desktop desktopIcon',
         link: 'https://jasonpak.me/',
         text: 'Website',
       },
@@ -402,12 +402,12 @@ const ProjectItems = [
     ],
     icons: [
       {
-        name: 'fab fa-github githubIcon',
+        name: 'fa-brands fa-github githubIcon',
         link: 'https://github.com/JY2452/terrace-survival',
         text: 'Repo',
       },
       {
-        name: 'fab fa-youtube youtubeIcon',
+        name: 'fa-brands fa-youtube youtubeIcon',
         link: 'https://youtu.be/THqoeknpMg0',
         text: 'Demo',
       },
@@ -440,17 +440,17 @@ const ProjectItems = [
     ],
     icons: [
       {
-        name: 'fab fa-github githubIcon',
+        name: 'fa-brands fa-github githubIcon',
         link: 'https://github.com/JY2452/bot-thoven',
         text: 'Repo',
       },
       {
-        name: 'fab fa-youtube youtubeIcon',
+        name: 'fa-brands fa-youtube youtubeIcon',
         link: 'https://youtu.be/9Ag7zkTR_XE',
         text: 'Demo',
       },
       {
-        name: 'fas fa-desktop desktopIcon',
+        name: 'fa-solid fa-desktop desktopIcon',
         link: 'https://hackaday.io/project/167574-bot-thoven-a-robot-musician',
         text: 'Website',
       },
@@ -477,7 +477,7 @@ const ProjectItems = [
     ],
     icons: [
       {
-        name: 'fab fa-github githubIcon',
+        name: 'fa-brands fa-github githubIcon',
         link: 'mailto:jaeyoung.pak8@gmail.com',
         text: 'Contact to View Repo',
       },
@@ -522,12 +522,12 @@ const ProjectItems = [
     ],
     icons: [
       {
-        name: 'fas fa-desktop desktopIcon',
+        name: 'fa-solid fa-desktop desktopIcon',
         link: 'https://frosty-villani-15fd5f.netlify.app',
         text: 'Website',
       },
       {
-        name: 'fab fa-github githubIcon',
+        name: 'fa-brands fa-github githubIcon',
         link: 'mailto:jaeyoung.pak8@gmail.com',
         text: 'Contact to View Repo',
       },
@@ -552,7 +552,7 @@ const ProjectItems = [
     ],
     icons: [
       {
-        name: 'fab fa-github githubIcon',
+        name: 'fa-brands fa-github githubIcon',
         link: 'https://github.com/JY2452/minesweeper',
         text: 'Repo',
       },
@@ -577,7 +577,7 @@ const ProjectItems = [
     ],
     icons: [
       {
-        name: 'fab fa-github githubIcon',
+        name: 'fa-brands fa-github githubIcon',
         link: 'https://github.com/JY2452/space-invaders',
         text: 'Repo',
       },
@@ -602,7 +602,7 @@ const ProjectItems = [
     ],
     icons: [
       {
-        name: 'fab fa-github githubIcon',
+        name: 'fa-brands fa-github githubIcon',
         link: 'mailto:jaeyoung.pak8@gmail.com',
         text: 'Contact to View Repo',
       },
@@ -637,12 +637,12 @@ const ProjectItems = [
     ],
     icons: [
       {
-        name: 'fas fa-desktop desktopIcon',
+        name: 'fa-solid fa-desktop desktopIcon',
         link: 'https://dartmouth-cs52-21s.github.io/lab2-JY2452',
         text: 'Website',
       },
       {
-        name: 'fab fa-github githubIcon',
+        name: 'fa-brands fa-github githubIcon',
         link: 'mailto:jaeyoung.pak8@gmail.com',
         text: 'Contact to View Repo',
       },

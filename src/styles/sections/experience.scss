@@ -50,6 +50,12 @@
   background-color: #0167a4;
 }
 
+#c1Logo {
+  background-image: url('/src/img/c1.jpeg');
+  background-size: 180px;
+  background-color: #013e5c;
+}
+
 .experienceText {
   @include flex(column, flex-start);
   align-items: flex-start;

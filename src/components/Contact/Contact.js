@@ -30,7 +30,7 @@ const Contact = () => {
           target="_blank"
           rel="noopener noreferrer"
           href={resume}
-        ><i className="fa fa-cloud-download" />Resume
+        ><i className="fa-solid fa-download" />Resume
 
         </a>
       </Fade>

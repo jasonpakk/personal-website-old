@@ -17,7 +17,7 @@ const CourseList = (props) => {
               onClick={() => setActive(!active)}
             >
               {props.title}
-              <i className={active ? 'fas fa-caret-up' : 'fas fa-caret-down'} />
+              <i className={active ? 'fa-solid fa-caret-up' : 'fa-solid fa-caret-down'} />
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="0">

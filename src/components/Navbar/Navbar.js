@@ -55,7 +55,7 @@ class NavBar extends Component {
             Jason Pak
           </h1>
           <div id="hamburgerIcon" role="button" tabIndex={0} onClick={this.handleIconClick}>
-            <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}
+            <i className={this.state.clicked ? 'fa-solid fa-times' : 'fa-solid fa-bars'}
               style={{ color: '#03071e' }}
             />
           </div>
