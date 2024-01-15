@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 import Carousel from 'react-bootstrap/Carousel';
 import img1 from '../../img/personal/viola1.jpg';
 import { MediaItems, FSPPics } from './MediaItems';
-import musicres from '../../img/personal/musicres.pdf';
+// import musicres from '../../img/personal/musicres.pdf';
 
 const Music = () => {
   return (
@@ -27,12 +27,13 @@ const Music = () => {
               I also enjoy teaching viola to young students through the<b>Musical Empowerment</b>program!
             </p>
 
-            <a target="_blank"
-              rel="noopener noreferrer"
-              href={musicres}
-            ><i className="fa-solid fa-download" />Biography & Repertoire List
-
-            </a>
+            {/*
+              <a target="_blank"
+                rel="noopener noreferrer"
+                href={musicres}
+              ><i className="fa-solid fa-download" />Biography & Repertoire List
+              </a>
+            */}
           </div>
         </div>
       </Fade>

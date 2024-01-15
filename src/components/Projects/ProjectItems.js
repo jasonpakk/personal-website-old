@@ -1,14 +1,14 @@
 import doodlegram from '../../img/mockup/doodlegram.gif';
 import vitalize from '../../img/mockup/vitalize.gif';
-import holistic from '../../img/mockup/holistic.gif';
-import minesweeper from '../../img/mockup/mines.gif';
-import spaceInvaders from '../../img/mockup/spaceinvaders.gif';
-import tse from '../../img/mockup/tse.png';
-import sketch from '../../img/mockup/sketch.gif';
-import notes from '../../img/mockup/notes.gif';
-import buzzfeed from '../../img/mockup/buzzfeed.gif';
+// import holistic from '../../img/mockup/holistic.gif';
+// import minesweeper from '../../img/mockup/mines.gif';
+// import spaceInvaders from '../../img/mockup/spaceinvaders.gif';
+// import tse from '../../img/mockup/tse.png';
+// import sketch from '../../img/mockup/sketch.gif';
+// import notes from '../../img/mockup/notes.gif';
+// import buzzfeed from '../../img/mockup/buzzfeed.gif';
 import fitkitch from '../../img/mockup/fitkitch.gif';
-import jpme from '../../img/mockup/jpme.gif';
+// import jpme from '../../img/mockup/jpme.gif';
 
 const ProjectItems = [
   {
@@ -284,6 +284,7 @@ const ProjectItems = [
       },
     ],
   },
+  /*
   {
     project: 'Holistic Ranching',
     description: 'A full-stack webpage built to assist ranchers in monitoring cattle weight for succesful calving and breeding cycles.',
@@ -330,6 +331,8 @@ const ProjectItems = [
       },
     ],
   },
+  */
+  /*
   {
     project: 'jasonpak.me',
     description: 'What you are seeing right now! A personal website applying my skills in web development and UI/UX Design.',
@@ -375,6 +378,7 @@ const ProjectItems = [
       },
     ],
   },
+  */
   {
     project: 'Terrace Survival',
     description: 'A Unity game where the user is locked out on a terrace, and must scavenge and collect items to make themselves a meal and survive.',
@@ -456,6 +460,7 @@ const ProjectItems = [
       },
     ],
   },
+  /*
   {
     project: 'Tiny Search Engine',
     description: 'A three-part search engine that crawls the contents of webpages on a server, runs website indexing, and outputs a ranked list of pages based on the search query.',
@@ -483,6 +488,8 @@ const ProjectItems = [
       },
     ],
   },
+  */
+  /*
   {
     project: 'CollabNotes',
     description: 'A live note editing app where multiple users can collaborate on a noteboard at one time, and edits are updated live across all users on the current noteboard.',
@@ -533,6 +540,8 @@ const ProjectItems = [
       },
     ],
   },
+  */
+  /*
   {
     project: 'Minesweeper',
     description: 'A Minesweeper clone that I built from scratch. The game supports functionality such as right-click to flag, different game levels, sound effects, and a high scores page.',
@@ -648,6 +657,7 @@ const ProjectItems = [
       },
     ],
   },
+  */
 ];
 
 export default ProjectItems;

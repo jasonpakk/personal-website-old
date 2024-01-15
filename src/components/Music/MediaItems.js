@@ -12,7 +12,7 @@ const MediaItems = [
   {
     name: 'clarke',
     link: 'https://www.youtube.com/embed/tUo7kLDjtFQ',
-    caption: 'Performance of Rebecca Clarke\'s Viola Sonata (Oct 2019)',
+    caption: 'Excerpt of Rebecca Clarke\'s Viola Sonata',
   },
   {
     name: 'smi',
