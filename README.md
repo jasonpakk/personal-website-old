@@ -1,10 +1,16 @@
-# jasonpak.me
+# personal website (v1)
+
+old version, has now been archived
+check out the new website: 
+[Visit the website here!](https://jasonpak.me/)
+
+to see the old website
+[Visit the old website here!](https://jasonpak.netlify.app/)
+
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/968e5a21-c034-45f0-9f9a-4532b39b6c41/deploy-status)](https://app.netlify.com/sites/jasonpak/deploys)
 
-A personal website made using HTML + CSS + Javascript.
-
-[Visit the website here!](https://jasonpak.me/)
+A personal website made using React.
 
 ![](src/img/mockup/jpme.gif)
 
